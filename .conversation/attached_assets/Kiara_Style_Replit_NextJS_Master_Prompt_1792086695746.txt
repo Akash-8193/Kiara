@@ -1,0 +1,100 @@
+# KIARA STYLE — MASTER PROMPT FOR REPLIT
+
+You are the lead architect and senior full-stack developer for my brand, KIARA STYLE — MEN'S FASHION.
+
+I have attached my complete website prompt report and brand logo. Read the entire report and treat it as the primary project specification.
+
+## MANDATORY FRAMEWORK REQUIREMENT — DO NOT IGNORE
+Build the entire website using **Next.js App Router with TypeScript**.
+- Do NOT build a plain React SPA.
+- Do NOT use Vite.
+- Do NOT use Create React App.
+- Do NOT create a separate React-only frontend.
+- React may be used only as the UI library inside the Next.js application.
+- Use Next.js App Router for all routes and layouts.
+- Use Next.js server components by default where appropriate, and client components only for interactive UI.
+- Use Next.js Route Handlers and secure server-side code for backend operations that belong in the app.
+- Preserve this Next.js architecture through every implementation phase. Do not switch frameworks later.
+- If Replit suggests a React/Vite template, reject it and set up a Next.js project instead.
+- Before coding, confirm the project is a Next.js App Router application and show the intended project structure.
+
+## PROJECT GOAL
+Build a complete, production-oriented, multi-page Indian men's T-shirt e-commerce website. This must not be only a landing page or static visual prototype. The shopping flow must eventually work from product discovery through cart, checkout, payment, order confirmation and tracking.
+
+## BRAND IDENTITY
+- Brand: KIARA STYLE
+- Tagline: MEN'S FASHION
+- Market: India
+- Currency: INR (₹)
+- Audience: Indian men shopping for everyday, casual, smart-casual and streetwear-inspired T-shirts.
+- Use the supplied KIARA STYLE logo as the primary brand asset. Preserve its original lettering, proportions and monogram. Do not distort or recreate it.
+
+## COLOUR PALETTE
+- Charcoal black: #171717
+- Antique gold: #C5A46D
+- Warm cream: #F6F0E6
+- White: #FFFFFF
+- Secondary text: #737373
+- Borders: #E7E1D8
+- Error: #B42318
+- Success: #287447
+Gold is an accent, not the dominant colour. Maintain strong contrast and readability.
+
+## DESIGN DIRECTION
+Create a refined, modern premium men's fashion website with editorial photography, clean product grids, strong typography, whitespace, subtle hover states and restrained animations. Avoid cheap-looking 3D gold effects, excessive gradients, excessive glassmorphism, fake reviews, fake sales timers, lorem ipsum and non-functional buttons.
+
+## TECHNOLOGY
+- Next.js App Router + TypeScript (mandatory)
+- Tailwind CSS
+- Framer Motion for restrained UI animations
+- GSAP/ScrollTrigger only where genuinely useful
+- Lucide icons
+- Supabase for database, authentication and persistent customer data
+- Razorpay or another configured Indian payment gateway
+- A configured transactional email provider
+Use compatible package versions and preserve the project's package manager and lockfile. Do not use Vite or Create React App.
+
+## REQUIRED ROUTES
+/, /shop, /collections/oversized-t-shirts, /collections/regular-fit-t-shirts, /collections/printed-t-shirts, /collections/solid-t-shirts, /collections/best-sellers, /collections/new-arrivals, /product/[slug], /search, /wishlist, /cart, /checkout, /checkout/payment, /order-confirmation/[orderId], /login, /signup, /forgot-password, /account, /account/profile, /account/orders, /account/orders/[orderId], /track-order, /about, /contact, /size-guide, /faq, /shipping-policy, /returns-exchanges, /privacy-policy, /terms and a proper not-found page.
+
+## SHARED LAYOUT
+Build reusable header, announcement bar, navigation, search, account, wishlist and cart controls, mobile menu and footer. Every CTA must work. Do not invent a physical address, phone, email, social profile, GSTIN or registration details.
+
+## PRODUCT CATALOGUE
+Create at least 12 editable sample T-shirt products across solid, oversized, printed, graphic and regular-fit categories. Sample prices may include ₹499, ₹599, ₹699, ₹799 and ₹999, but mark them as sample values until approved. Each product needs ID, slug, name, description, category, fit, verified fabric details, colours, sizes, price, optional sale price, SKU, stock by variant, images, size guide, care instructions and related products. Do not invent reviews, certifications or stock counts.
+
+## FUNCTIONAL E-COMMERCE
+Implement search, filters, sorting, variants, cart, wishlist, persistence, inventory checks, coupons, server-side totals, Indian addresses, configurable shipping, supported payment methods, orders, order history and tracking. Recalculate prices, stock, discounts and totals on the server. Never trust browser-supplied totals.
+
+## CHECKOUT AND PAYMENTS
+Support guest and registered checkout. Address fields must include full name, Indian mobile number, email, house/flat, street, locality, optional landmark, city, state, six-digit PIN code and Home/Work label. Show item totals, discounts, shipping and final payable amount.
+Use a configured payment gateway through its approved flow, server-created payment orders, server-side verification and trusted webhooks. Handle success, failure, cancellation, pending status, retry and duplicate submission. Never mark an order paid without verified payment. COD must be separately configured and must not be treated as prepaid. If credentials are missing, use a clearly labelled demo/sandbox mode and never pretend it is a real transaction.
+
+## AUTHENTICATION AND SECURITY
+Use a real authentication provider, secure sessions, protected customer routes and per-customer data access controls. Never store plaintext passwords or expose secrets in client code. Customers must not access another customer's addresses or orders.
+
+## INDIAN CONTENT
+Use INR and Indian address formats. Configure shipping fees, serviceability, delivery estimates, COD, returns, refunds and support details instead of inventing them. Do not claim unsupported guarantees or legal compliance.
+
+## RESPONSIVE DESIGN
+Test at 360, 390, 430, 768, 1024, 1440 and 1920 pixels. Prevent horizontal overflow. Ensure accessible labels, keyboard navigation, focus states, alt text, readable contrast, touch-friendly controls and reduced-motion support.
+
+## SEO AND QUALITY
+Use optimized images, metadata, canonical URLs, Open Graph tags, accurate product structured data, sitemap, robots configuration, secure validation, environment variables, logging and useful loading/error/empty states.
+
+## IMPLEMENTATION WORKFLOW
+1. Read the complete attached report.
+2. Propose architecture and route map for the Next.js App Router project.
+3. Build shared design system and homepage.
+4. Implement shopping pages in the report order.
+5. Implement cart and checkout.
+6. Implement account and policy pages.
+7. Integrate Supabase and payment/email services only after the relevant UI flows exist.
+8. Test each phase before moving to the next.
+9. Preserve existing working code; do not recreate the project at every step.
+10. Use checkpoints before major changes.
+
+## FINAL DELIVERY
+Build the actual working project, not just a design description. Test routes, navigation, variants, cart, coupon, address, payment states, order confirmation, account isolation, responsive layouts and production build. Document environment variables and setup instructions. Clearly identify anything that still requires real credentials. Never claim an untested feature passed.
+
+First, confirm explicitly that you will use **Next.js App Router + TypeScript, not plain React/Vite**, then provide the implementation plan before coding.
