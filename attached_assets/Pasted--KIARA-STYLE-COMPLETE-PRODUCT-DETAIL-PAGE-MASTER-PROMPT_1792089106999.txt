@@ -1,0 +1,525 @@
+# KIARA STYLE — COMPLETE PRODUCT DETAIL PAGE MASTER PROMPT
+
+## 1. Your Task
+
+You are a senior UI/UX designer and full-stack developer working on my Indian men's fashion e-commerce brand, **KIARA STYLE — MEN'S FASHION**.
+
+I have provided reference screenshots of a product detail page from a fashion e-commerce website. Carefully study every screenshot from top to bottom and recreate the same overall layout, spacing, component hierarchy, interactions and shopping experience for my website.
+
+The reference is for functionality and layout inspiration. Do not copy the competitor's brand name, logo, product artwork, customer identities, reviews, or proprietary content. Use KIARA STYLE branding and original or properly licensed assets.
+
+**Important:** Build the actual working product detail page, not a static screenshot or visual-only mockup.
+
+## 2. Mandatory Technology Stack
+
+- Next.js App Router with TypeScript — mandatory.
+- Tailwind CSS for styling.
+- Framer Motion for subtle interactions where useful.
+- Lucide React for icons.
+- Supabase for persistent products, inventory, reviews and customer data.
+- Existing project architecture must be preserved.
+
+Do not create a plain React SPA, Vite project or Create React App project. React components must run inside the Next.js application.
+
+Use reusable components and dynamic product routes such as `/product/[slug]`.
+
+Before coding, inspect the existing project and integrate the page into the current application. Do not replace the whole project or break existing pages.
+
+## 3. KIARA STYLE Brand Design
+
+Use the existing KIARA STYLE logo without distorting it.
+
+Brand colours:
+- Charcoal Black: `#171717`
+- Antique Gold: `#C5A46D`
+- Warm Cream: `#F6F0E6`
+- White: `#FFFFFF`
+- Secondary text: `#737373`
+- Borders: `#E7E1D8`
+
+Maintain a premium, clean, modern men's fashion aesthetic. Use generous whitespace, refined typography, clear product photography and restrained animations.
+
+Do not use excessive gold backgrounds, cheap-looking 3D effects, excessive gradients or unnecessary decorative elements.
+
+## 4. Product Detail Page Layout
+
+### Section A — Announcement Bar
+
+Create a slim promotional announcement bar at the top.
+
+- Black background with white text.
+- Optional promotional message configured from the admin or site settings.
+- If a countdown timer is used, it must have a genuine configured end date.
+- Include a close button that dismisses the banner.
+- Do not create fake urgency or a countdown that resets on every refresh.
+
+Example text: “Discover Your Everyday Style | Explore the Latest Collection”.
+
+### Section B — Main Header
+
+Create a clean, sticky header similar in layout to the reference.
+
+Desktop:
+- Menu or navigation control on the left.
+- KIARA STYLE logo centred.
+- Search, account, wishlist or notification where configured, and shopping bag icons on the right.
+- Shopping bag displays the actual cart item count.
+
+Mobile:
+- Menu on the left.
+- Logo centred or appropriately aligned.
+- Search and shopping bag on the right.
+- Ensure icons do not overlap.
+
+The header must remain usable while scrolling and must work with the existing website navigation.
+
+### Section C — Breadcrumb Navigation
+
+Display breadcrumbs above the product area.
+
+Example:
+
+Home / Oversized T-Shirts / Product Name
+
+Requirements:
+- Each breadcrumb must navigate to its corresponding page.
+- Product name must come from the actual product record.
+- Support long product names without breaking the layout.
+
+### Section D — Main Product Information
+
+Create a two-column layout on desktop and a mobile-friendly stacked layout.
+
+**Left column: Product image gallery**
+
+- Large main product image.
+- Multiple thumbnail images below or beside the main image.
+- Clicking a thumbnail changes the main image.
+- Clicking the main image opens a larger image viewer or lightbox.
+- Support front, back, close-up, fabric and lifestyle images when available.
+- Add accessible previous/next controls where appropriate.
+- Use consistent image proportions and object-fit settings.
+- Prevent images from stretching or becoming blurry.
+- Add image loading placeholders and sensible fallback states.
+
+**Right column: Product purchase panel**
+
+Display these elements in order:
+
+1. Product name.
+2. Selling price in Indian Rupees.
+3. Original price and discount percentage, only when a valid sale price exists.
+4. Product availability status.
+5. Size chart link/button.
+6. Rating summary and review count, only when real review data exists.
+7. Size selector.
+8. Add to Cart button.
+9. Buy Now button, if supported.
+10. Applicable offer or savings information.
+11. Accepted payment method icons, only for payment methods actually supported.
+12. Relevant product information accordions.
+
+Use clear visual hierarchy and proper spacing. Keep the purchase controls easy to locate without making the screen overcrowded.
+
+### Section E — Product Pricing
+
+Show prices in INR.
+
+Example display:
+
+₹799  
+~~₹1,199~~  
+Save 33%
+
+These are illustrative values only. Use actual configured product prices in the real application.
+
+Rules:
+- Calculate discounts correctly.
+- Never display an original price lower than the selling price.
+- Do not show fake discounts.
+- Display “Sold Out” when the selected variant has no available inventory.
+- Disable purchasing for unavailable variants.
+- Never invent stock quantities.
+
+### Section F — Size Selection
+
+Support configurable sizes such as:
+
+XS, S, M, L, XL, XXL
+
+The available sizes must come from the product's actual variant data.
+
+Requirements:
+- Clearly highlight the selected size.
+- Show unavailable sizes as disabled, with a clear visual distinction.
+- Update availability when a size is selected.
+- Require a valid size selection before adding a size-dependent T-shirt to the cart.
+- Show a helpful validation message if no size has been selected.
+- Preserve the selected size when opening and closing the size chart.
+- Do not mark every size unavailable unless the inventory data confirms that condition.
+
+### Section G — Size Chart Modal
+
+Clicking “Size Chart” must open a proper modal or accessible drawer.
+
+Include:
+- Size labels.
+- Chest measurement.
+- Length.
+- Shoulder measurement where applicable.
+- Sleeve length where applicable.
+- Units in centimetres or inches.
+- Clear instructions for measuring a T-shirt.
+- A size guide image or illustration if available.
+
+All measurements must come from approved product data. If measurements have not been supplied, show a configurable placeholder or clearly indicate that the size chart needs to be completed. Do not invent exact garment measurements.
+
+The modal must have a close button, keyboard accessibility and mobile-friendly scrolling.
+
+### Section H — Add to Cart and Buy Now
+
+The Add to Cart button must be functional.
+
+On click:
+- Validate the selected size and any required variant.
+- Validate current availability.
+- Add the correct product, size, colour and quantity to the cart.
+- Update the header cart count.
+- Show a clear success message or cart drawer.
+- Prevent accidental duplicate additions caused by repeated clicks.
+- Preserve cart data according to the existing cart implementation.
+
+The Buy Now button should take the user into the checkout flow with the selected variant if the website supports it.
+
+Never show a successful addition if the operation failed.
+
+### Section I — Offers and Payment Information
+
+Below the purchase button, display relevant offers or payment information.
+
+Possible content:
+- Available discount or coupon.
+- Secure checkout information.
+- Supported payment methods.
+- COD availability, only if configured.
+- Shipping information.
+
+Do not claim free shipping, guaranteed delivery or COD unless the business configuration supports it.
+
+Use small, clean icons and avoid oversized promotional blocks.
+
+## 5. Product Information Accordions
+
+Below the main product panel, create full-width or right-column accordions matching the reference's clean, horizontal-divider style.
+
+Include these sections:
+
+### 1. Product Description
+Display:
+- Product overview.
+- Fit type.
+- Fabric composition.
+- Colour.
+- Print or design information.
+- Care instructions.
+- Additional specifications.
+
+Read this information from the product record.
+
+### 2. Shipping Information
+Explain the configured shipping process, shipping charges and estimated delivery details.
+
+Where possible, provide a PIN code checker backed by actual serviceability data.
+
+Do not invent delivery dates or shipping promises.
+
+### 3. Returns and Exchanges
+Display the actual return and exchange policy, applicable eligibility conditions, return window and instructions.
+
+Use the business's configured policy. Do not promise a seven-day return window unless the business has approved that policy.
+
+### 4. Additional Product Details
+If the product has extra specifications, include a suitable accordion for them.
+
+Accordion behaviour:
+- Click to expand or collapse.
+- Use a plus/minus or chevron icon.
+- Use smooth, restrained transitions.
+- Keep text readable on mobile.
+- Support keyboard navigation.
+
+## 6. Customer Reviews Section
+
+After the product details, build a complete customer reviews area similar in structure to the reference screenshots.
+
+Include:
+
+**Review summary**
+- Average rating out of 5.
+- Total number of reviews.
+- Rating distribution from 5 stars to 1 star.
+- Horizontal bars showing the distribution.
+- A “Write a Review” button.
+
+**Customer review cards**
+Each card may contain:
+- Star rating.
+- Customer display name.
+- Verified purchase label, only when verified by the system.
+- Review date.
+- Review title.
+- Review text.
+- Customer-uploaded product photo or video, if available.
+
+**Review interactions**
+- Sort reviews by newest, oldest, highest rating and lowest rating.
+- Filter reviews by rating.
+- Show an empty state if no reviews exist.
+- Allow eligible customers to submit a review.
+- Validate review inputs.
+- Store approved reviews persistently.
+- Prevent unauthorized users from editing other customers' reviews.
+- Apply image upload restrictions and secure storage rules.
+
+Important:
+- Do not fabricate customer names, verified badges, photos, reviews, ratings or review counts.
+- If no real reviews exist, show a clean “Be the first to review this product” message and a zero-review state.
+- Calculate average ratings and rating distribution from actual review records.
+
+## 7. Customer Photo and Video Gallery
+
+If customers have uploaded product photos or videos, show a separate “Customer Photos & Videos” gallery.
+
+Requirements:
+- Display image thumbnails in a clean responsive grid or horizontal gallery.
+- Clicking a thumbnail opens a larger viewer.
+- Show only approved customer media.
+- Respect upload permissions and privacy.
+- Do not use random internet images and label them as customer photos.
+
+If no customer media exists, hide the gallery or show a tasteful empty state.
+
+## 8. Review Sorting and Review Cards
+
+Provide a sorting dropdown such as:
+- Most Recent
+- Highest Rating
+- Lowest Rating
+- With Photos
+
+Make sure the selected sorting option actually changes the displayed results.
+
+Review cards should have consistent padding, readable text, properly cropped images and responsive behaviour.
+
+On mobile, cards should fit the viewport without horizontal overflow.
+
+## 9. “You May Also Like” Section
+
+Create a related-products section below the reviews.
+
+Desktop:
+- Four product cards per row where the viewport allows.
+- Consistent image ratios and spacing.
+
+Tablet:
+- Two or three cards depending on available width.
+
+Mobile:
+- Two columns or a smooth horizontal product carousel, depending on the existing design system.
+
+Each card should support:
+- Product image.
+- Product name.
+- Current price.
+- Original price when genuinely discounted.
+- Colour or variant information if relevant.
+- Wishlist control.
+- Product navigation on click.
+- Quick View only if fully functional.
+
+Related products should come from relevant categories, collections or configured recommendations. Exclude the currently viewed product where appropriate.
+
+Do not invent product names, stock status, prices or discounts.
+
+## 10. Shopping Benefits / Trust Section
+
+Below related products, create a clean three-column section inspired by the reference.
+
+Possible benefit cards:
+
+1. **Shipping Information** — explain the actual shipping policy.
+2. **Secure Payment** — describe supported secure payment options.
+3. **Customer Support** — provide the configured customer support channel.
+
+Optional benefits:
+- Cash on Delivery, if enabled.
+- Easy Returns, if the approved policy allows it.
+
+Use simple line icons inside restrained circular backgrounds. Use KIARA STYLE brand colours instead of copying the reference's yellow icons.
+
+Do not promise free shipping, instant delivery, guaranteed refunds or COD unless those features are genuinely available.
+
+## 11. Footer
+
+Create a full-width footer consistent with the KIARA STYLE brand.
+
+Use a charcoal or black background with readable white text and subtle gold accents.
+
+Include four main columns where space allows:
+
+**Column 1 — Help**
+- Contact Us
+- Shipping Policy
+- Returns & Exchanges
+- Track Order
+- FAQs
+
+**Column 2 — About KIARA STYLE**
+- Short brand introduction.
+- About Us link.
+
+**Column 3 — Information**
+- Privacy Policy
+- Terms & Conditions
+- Size Guide
+- Shipping Information
+
+**Column 4 — Contact and Social**
+- Configured customer support email.
+- Configured phone number, if provided.
+- Actual social links.
+- Newsletter subscription, if implemented.
+
+Add the copyright line and relevant configured business details.
+
+On mobile, arrange the footer columns vertically or as accessible accordions.
+
+Do not invent contact details or social profiles.
+
+## 12. Sticky and Mobile Shopping Experience
+
+Where appropriate, add a mobile sticky purchase bar near the bottom of the viewport.
+
+It may display:
+- Selected product price.
+- Selected size.
+- Add to Cart button.
+
+Requirements:
+- Do not cover important content or mobile navigation.
+- Respect safe-area insets.
+- Update when size or availability changes.
+- Hide or disable purchasing when the selected variant is unavailable.
+- Ensure it does not duplicate an existing purchase action in a confusing way.
+
+Use subtle transitions and keep the interface lightweight.
+
+## 13. Responsive Requirements
+
+Test the complete product page at:
+- 360px
+- 390px
+- 430px
+- 768px
+- 1024px
+- 1440px
+- 1920px
+
+Desktop:
+- Two-column product layout.
+- Large product image gallery.
+- Well-aligned purchase panel.
+
+Mobile:
+- Main image first.
+- Product title and price clearly visible.
+- Touch-friendly thumbnails and size buttons.
+- Readable accordions.
+- Properly stacked reviews and related products.
+- No clipped buttons or text.
+- No horizontal page overflow.
+
+Do not simply scale down the desktop design. Make the mobile experience intentional.
+
+## 14. Database and Product Data
+
+Integrate with the existing Supabase schema where possible.
+
+A product record should support:
+- ID and slug.
+- Product title.
+- Description.
+- Category and collection.
+- Images.
+- Price and optional sale price.
+- Variant sizes and colours.
+- SKU and inventory.
+- Fabric and fit details.
+- Size chart.
+- Care instructions.
+- Shipping and return policy references.
+- Published status.
+- SEO metadata.
+
+Reviews should support:
+- Product ID.
+- Customer ID.
+- Rating.
+- Title and text.
+- Approved status.
+- Verified purchase status derived from order records.
+- Created date.
+- Approved media references.
+
+Use secure access controls. Never expose service-role keys in browser code. Follow the existing project architecture and avoid creating duplicate tables without checking the current schema.
+
+## 15. Performance and Accessibility
+
+- Optimise product images.
+- Use appropriate Next.js image handling.
+- Avoid layout shifts.
+- Provide loading skeletons where useful.
+- Provide error, empty and unavailable states.
+- Use semantic HTML.
+- Add descriptive image alt text.
+- Ensure buttons and modals are keyboard accessible.
+- Use visible focus states.
+- Respect reduced-motion preferences.
+- Avoid unnecessary animation libraries or heavy effects.
+
+## 16. Testing Checklist
+
+Before marking the page complete, test:
+
+1. Product route loads using the correct slug.
+2. Product information matches the selected product record.
+3. Main image changes when thumbnails are clicked.
+4. Image zoom/lightbox opens and closes.
+5. Size chart opens, scrolls and closes correctly.
+6. Size selection updates correctly.
+7. Unavailable sizes cannot be purchased.
+8. Add to Cart validates size and availability.
+9. Cart count updates correctly.
+10. Price and discount calculations are accurate.
+11. Product accordions expand and collapse.
+12. Review count and average rating match database records.
+13. Review sorting and filtering work.
+14. Review submission follows authentication and moderation rules.
+15. Customer media gallery shows only approved media.
+16. Related products navigate to the correct product.
+17. Header and footer links work.
+18. Mobile sticky purchase controls work without blocking content.
+19. All layouts work across the specified viewport widths.
+20. The Next.js production build succeeds without relevant errors.
+
+## 17. Final Instructions
+
+Study every attached screenshot and use them as a reference for the complete product detail page from the top announcement bar through the footer.
+
+Build the page as reusable Next.js components, integrated with the existing KIARA STYLE application. Preserve the existing homepage, navigation, cart, design system and other working routes.
+
+Implement the sections in order, test interactions as you go, and fix layout issues before moving on.
+
+Do not mark a feature complete merely because it looks correct. Test its actual behaviour.
+
+**Start by examining the existing codebase and reference screenshots. Then provide a short implementation plan and identify any missing product data or credentials. After that, implement the complete product detail page.**

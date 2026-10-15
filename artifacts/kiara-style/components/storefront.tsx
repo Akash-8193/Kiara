@@ -2,7 +2,8 @@
 
 import { useEffect, useMemo, useState, type FormEvent } from "react";
 import Link from "next/link";
-import { ArrowDownRight, ArrowRight, Heart, ShoppingBag, SlidersHorizontal, CircleAlert, Search as SearchIcon } from "lucide-react";
+import { ArrowDownRight, ArrowRight, Heart, ShoppingBag, SlidersHorizontal, CircleAlert, Search as SearchIcon, X, ZoomIn, Ruler, Truck, RotateCcw, MessageCircle, ChevronDown } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { collectionNames, inr, products, type Product } from "../lib/products";
 
 type BagItem = { product: Product; size: string; color: string; quantity: number };
@@ -133,22 +134,107 @@ function ProductView({ path, wished, onWish, onAdd }: { path: string; wished: st
   const [size, setSize] = useState("");
   const [color, setColor] = useState("");
   const [added, setAdded] = useState(false);
+  const [sizeError, setSizeError] = useState(false);
+  const [dialog, setDialog] = useState<"size" | "image" | null>(null);
+  const router = useRouter();
+  useEffect(() => {
+    if (!dialog) return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setDialog(null);
+    };
+    document.addEventListener("keydown", onKeyDown);
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = "";
+    };
+  }, [dialog]);
   if (!product) return <NotFoundView />;
-  const add = () => { if (!size) return; onAdd(product, size, color || product.colors[0]); setAdded(true); };
+  const selectedColor = color || product.colors[0];
+  const add = () => {
+    if (!size) { setSizeError(true); document.getElementById("product-size-options")?.focus(); return false; }
+    onAdd(product, size, selectedColor);
+    setAdded(true);
+    setSizeError(false);
+    return true;
+  };
+  const buyNow = () => {
+    if (add()) router.push("/checkout");
+  };
+  const galleryImages = [product.image];
   return <div className="page-wrap">
-    <div className="breadcrumb"><Link href="/shop">Shop</Link> / {product.name}</div>
-    <div className="product-detail">
-      <img className="detail-image" src={product.image} alt={`${product.name} — editorial styling`} />
-      <div className="detail-copy"><span className="eyebrow">{product.category} · {product.fit}</span><h1 className="display">{product.name}</h1><div className="detail-price">{inr(product.price)}</div><div className="detail-sample">Sample INR price · pending approval</div><p className="detail-description">{product.description}</p>
-        <div className="notice">Preview only — this style is not connected to live product data, inventory, or ordering.</div>
-        <div className="choice-label"><span>Colour</span><span>{color || product.colors[0]} · sample shade</span></div><div className="size-row">{product.colors.map(c => <button type="button" className={`size-choice ${color === c || (!color && c === product.colors[0]) ? "selected" : ""}`} key={c} onClick={() => setColor(c)} aria-label={`Choose ${c}`} style={{ width: "auto", padding: "0 13px" }}>{c}</button>)}</div>
-        <div className="choice-label"><span>Choose a size</span><Link href="/size-guide">Size guide</Link></div><div className="size-row">{sizes.map(s => <button type="button" className={`size-choice ${size === s ? "selected" : ""}`} key={s} onClick={() => { setSize(s); setAdded(false); }}>{s}</button>)}</div>
-        {added && <div className="inline-success">Added to your local preview bag. Checkout is not connected.</div>}
-        <div className="detail-actions"><button className="button" type="button" onClick={add}>{size ? "Add to preview bag" : "Choose a size"} <ShoppingBag size={15} /></button><button className="button button-outline" type="button" aria-label="Save to wishlist" onClick={() => onWish(product.id)}><Heart size={16} fill={wished.includes(product.id) ? "currentColor" : "none"} /></button></div>
-        <div className="content-panel"><h2>Product notes</h2><p>Fabric composition, measurements, care details and SKU are pending confirmation. This page is for browsing and design review only.</p><p>Shown colour and fit descriptions are illustrative. No verified product specification is currently available.</p></div>
-      </div>
+    <nav className="breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span aria-hidden="true"> / </span><Link href={`/collections/${product.fit === "Oversized" ? "oversized-t-shirts" : "regular-fit-t-shirts"}`}>{product.fit}</Link><span aria-hidden="true"> / </span><span aria-current="page">{product.name}</span></nav>
+    <div className="product-detail kiara-product-layout">
+      <section className="product-gallery" aria-label="Product images">
+        <button className="gallery-main" type="button" onClick={() => setDialog("image")} aria-label={`Open larger image of ${product.name}`}>
+          <img src={galleryImages[0]} alt={`${product.name} — sample product image`} />
+          <span className="gallery-zoom"><ZoomIn size={16} /> View image</span>
+        </button>
+        <div className="gallery-thumbnails" aria-label="Image thumbnails">
+          {galleryImages.map((image, index) => <button className="gallery-thumb selected" key={image} type="button" aria-label={`Show product image ${index + 1}`} aria-pressed="true" onClick={() => setDialog("image")}><img src={image} alt="" /></button>)}
+        </div>
+        <p className="gallery-note">More product photography is pending. This preview uses the single image attached to this product record.</p>
+      </section>
+      <section className="detail-copy kiara-detail-copy" aria-label="Product information">
+        <span className="eyebrow">{product.category} · {product.fit} · sample style</span>
+        <h1 className="display">{product.name}</h1>
+        <div className="detail-price">{inr(product.price)}</div>
+        <div className="detail-sample">Sample INR price · pending approval</div>
+        <p className="detail-description">{product.description}</p>
+        <div className="preview-note"><span className="preview-mark">KS</span><p><strong>Design preview only</strong><br />This item cannot be purchased. Prices and product details are sample values; live inventory and ordering are not connected.</p></div>
+
+        <div className="choice-label"><span>Colour <small>Preview options</small></span><span>{selectedColor}</span></div>
+        <div className="color-options" role="group" aria-label="Colour preview options">
+          {product.colors.map((c, index) => <button type="button" className={`color-option ${selectedColor === c ? "selected" : ""}`} key={c} onClick={() => { setColor(c); setAdded(false); }} aria-pressed={selectedColor === c} aria-label={`Select ${c}, preview colour`}><span className={`color-swatch swatch-${index % 5}`} aria-hidden="true" />{c}</button>)}
+        </div>
+        <div className="choice-label size-choice-label"><span>Choose a size <small>Preview options</small></span><button type="button" className="size-chart-trigger" onClick={() => setDialog("size")}><Ruler size={14} /> Size chart</button></div>
+        <div className={`size-row kiara-size-row ${sizeError ? "has-error" : ""}`} id="product-size-options" role="group" aria-label="Size preview options" tabIndex={-1}>
+          {sizes.map(s => <button type="button" className={`size-choice ${size === s ? "selected" : ""}`} key={s} onClick={() => { setSize(s); setAdded(false); setSizeError(false); }} aria-pressed={size === s}>{s}</button>)}
+        </div>
+        {sizeError && <p className="size-validation" role="alert">Choose a size preview option before continuing.</p>}
+        <p className="variant-caption">Size and colour selections are visual preview options only; availability is not configured.</p>
+        {added && <p className="inline-success" role="status">Added to your local preview bag. Checkout is not connected.</p>}
+        <div className="detail-actions kiara-detail-actions">
+          <button className="button" type="button" onClick={add}>Add to preview bag <ShoppingBag size={15} /></button>
+          <button className="button button-outline" type="button" onClick={buyNow}>Buy now · preview checkout <ArrowRight size={15} /></button>
+        </div>
+        <button className={`product-wishlist-link ${wished.includes(product.id) ? "saved" : ""}`} type="button" onClick={() => onWish(product.id)} aria-pressed={wished.includes(product.id)}><Heart size={15} fill={wished.includes(product.id) ? "currentColor" : "none"} />{wished.includes(product.id) ? "Saved to wishlist" : "Save to wishlist"}</button>
+        <p className="checkout-disclaimer">Both actions are local previews. Buy now opens the existing preview checkout; no order or payment is made.</p>
+      </section>
     </div>
-    <section className="section" style={{ paddingTop: 45 }}><div className="section-heading"><div><span className="eyebrow">Continue browsing</span><h2 className="display">More from the edit</h2></div><Link className="quiet-link" href="/shop">Shop all <ArrowRight size={13} /></Link></div><ProductGrid items={products.filter(p => p.id !== product.id).slice(0,4)} wished={wished} onWish={onWish} onAdd={onAdd} /></section>
+
+    <section className="product-information" aria-label="Product details">
+      <div className="product-information-heading"><span className="eyebrow">The finer details</span><h2 className="display">Good to know.</h2></div>
+      <div className="product-accordions">
+        {[
+          ["Product description", <><p>{product.description}</p><p><strong>Fit:</strong> {product.fit} · <strong>Colour direction:</strong> {product.tone}.</p><p>Fabric composition, garment measurements, care instructions, print details and additional specifications are pending confirmation.</p></>],
+          ["Fabric & care", <p>Fabric composition, washing instructions and care guidance have not been supplied yet. Details are pending and will be added after confirmation.</p>],
+          ["Shipping information", <p>Shipping fees, delivery estimates, serviceable locations and fulfilment arrangements are pending. This preview cannot confirm shipping availability.</p>],
+          ["Returns & exchanges", <p>Return, exchange, refund and cancellation terms are not yet configured. No returns or exchanges can be promised through this preview.</p>],
+        ].map(([heading, content]) => <details className="product-accordion" key={heading as string}><summary>{heading as string}<ChevronDown size={17} aria-hidden="true" /></summary><div className="accordion-content">{content}</div></details>)}
+      </div>
+    </section>
+
+    <section className="reviews-section" aria-labelledby="reviews-title">
+      <div className="reviews-intro"><span className="eyebrow">Community notes</span><h2 className="display" id="reviews-title">Customer reviews</h2><p>There are no reviews for this sample product yet.</p></div>
+      <div className="review-empty"><div className="review-empty-icon"><MessageCircle size={20} /></div><div><h3>Be the first to review</h3><p>Ratings, customer stories and customer media will appear here only when real review services are available.</p></div><div className="review-submit-wrap"><button className="button button-outline" type="button" disabled aria-disabled="true">Write a review</button><span>Review submission is disabled because sign-in and review persistence are not configured.</span></div></div>
+      <p className="review-count-note">0 reviews · No rating data available</p>
+    </section>
+
+    <section className="section related-section"><div className="section-heading"><div><span className="eyebrow">Continue browsing</span><h2 className="display">More from the edit</h2></div><Link className="quiet-link" href="/shop">Shop all <ArrowRight size={13} /></Link></div><ProductGrid items={products.filter(p => p.id !== product.id).slice(0,4)} wished={wished} onWish={onWish} onAdd={onAdd} /></section>
+
+    <section className="product-service-strip" aria-label="Preview service information">
+      <article><span className="service-icon"><Truck size={18} /></span><div><h3>Shipping details</h3><p>Rates and delivery information are pending confirmation.</p></div></article>
+      <article><span className="service-icon"><RotateCcw size={18} /></span><div><h3>Returns & exchanges</h3><p>Policy terms are not yet configured or promised.</p></div></article>
+      <article><span className="service-icon"><MessageCircle size={18} /></span><div><h3>Customer support</h3><p>Support channels are still being set up.</p></div></article>
+    </section>
+    <div className="mobile-preview-add"><span>{inr(product.price)} <small>Sample price</small></span><button type="button" className="button" onClick={add}>Add to preview bag <ShoppingBag size={15} /></button></div>
+    {dialog && <div className={`kiara-modal-backdrop ${dialog === "image" ? "image-lightbox-backdrop" : ""}`} onMouseDown={event => { if (event.target === event.currentTarget) setDialog(null); }}>
+      <section className={`kiara-modal ${dialog === "image" ? "lightbox-modal" : ""}`} role="dialog" aria-modal="true" aria-labelledby="product-modal-title" tabIndex={-1}>
+        <button className="modal-close" type="button" onClick={() => setDialog(null)} aria-label="Close dialog"><X size={19} /></button>
+        {dialog === "size" ? <><span className="eyebrow">Fit reference</span><h2 id="product-modal-title" className="display">Size chart</h2><div className="size-chart-pending"><Ruler size={22} /><h3>Measurements are pending</h3><p>Official garment measurements have not been provided. We won’t guess at chest, length, shoulder or sleeve dimensions.</p><p>Size labels shown on the product page are preview options only. A verified chart will be added once the sample and grading are confirmed.</p></div><button type="button" className="button button-outline modal-done" onClick={() => setDialog(null)}>Back to product</button></> : <><h2 id="product-modal-title" className="sr-only">{product.name} sample image</h2><img className="lightbox-image" src={galleryImages[0]} alt={`${product.name} — sample product image, enlarged`} /><p className="lightbox-caption">Sample image · additional product photography pending</p></>}
+      </section>
+    </div>}
   </div>;
 }
 
