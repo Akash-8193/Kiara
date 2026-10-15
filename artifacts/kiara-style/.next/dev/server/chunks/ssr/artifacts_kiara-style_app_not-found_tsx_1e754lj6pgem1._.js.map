@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/runner/workspace/artifacts/kiara-style/app/not-found.tsx"],"sourcesContent":["import Link from \"next/link\";\n\nexport default function NotFound() {\n  return <div className=\"page-wrap\"><div className=\"empty-state\" style={{ margin: \"70px 0\" }}><span className=\"eyebrow\">404 · Page not found</span><h1 className=\"display\">This page has wandered off.</h1><p>The link may be outdated, or this part of the storefront is still being prepared.</p><Link className=\"button\" href=\"/\">Back to the home edit</Link></div></div>;\n}\n"],"names":["NotFound","className","style","margin","href"],"mappings":";;;;;AAAA;;;AAEe,SAASA;IACtB,qBAAO,+YAAC;QAAIC,WAAU;kBAAY,cAAA,+YAAC;YAAIA,WAAU;YAAcC,OAAO;gBAAEC,QAAQ;YAAS;;8BAAG,+YAAC;oBAAKF,WAAU;8BAAU;;;;;;8BAA2B,+YAAC;oBAAGA,WAAU;8BAAU;;;;;;8BAAgC,+YAAC;8BAAE;;;;;;8BAAqF,+YAAC,2VAAI;oBAACA,WAAU;oBAASG,MAAK;8BAAI;;;;;;;;;;;;;;;;;AACrU"}}]
+}

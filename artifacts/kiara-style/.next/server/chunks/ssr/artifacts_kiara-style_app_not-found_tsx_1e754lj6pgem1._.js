@@ -1,0 +1,3 @@
+module.exports=[5064,a=>{"use strict";var b=a.i(2183),c=a.i(37525);a.s(["default",0,function(){return(0,b.jsx)("div",{className:"page-wrap",children:(0,b.jsxs)("div",{className:"empty-state",style:{margin:"70px 0"},children:[(0,b.jsx)("span",{className:"eyebrow",children:"404 · Page not found"}),(0,b.jsx)("h1",{className:"display",children:"This page has wandered off."}),(0,b.jsx)("p",{children:"The link may be outdated, or this part of the storefront is still being prepared."}),(0,b.jsx)(c.default,{className:"button",href:"/",children:"Back to the home edit"})]})})}])},70249,function(a){a.n(a.i(5064))}];
+
+//# sourceMappingURL=artifacts_kiara-style_app_not-found_tsx_1e754lj6pgem1._.js.map

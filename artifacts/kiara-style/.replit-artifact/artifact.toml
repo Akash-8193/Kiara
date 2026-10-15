@@ -1,0 +1,37 @@
+kind = "web"
+previewPath = "/"
+title = "Kiara Style"
+description = "A premium Indian men's T-shirt storefront preview built with Next.js App Router, sample products, fit guides, and customer information."
+version = "1.0.0"
+id = "artifacts/kiara-style"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18709
+
+[services.development]
+run = "pnpm --filter @workspace/kiara-style run dev"
+
+[services.production]
+
+[services.production.build]
+args = [ "pnpm", "--filter", "@workspace/kiara-style", "run", "build" ]
+
+[services.production.build.env]
+NODE_ENV = "production"
+
+[services.production.run]
+args = [ "pnpm", "--filter", "@workspace/kiara-style", "run", "serve" ]
+
+[services.production.run.env]
+PORT = "18709"
+NODE_ENV = "production"
+
+[services.production.health.startup]
+path = "/"
+
+[services.env]
+PORT = "18709"
+BASE_PATH = "/"
