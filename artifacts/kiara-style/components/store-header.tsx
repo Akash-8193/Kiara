@@ -30,6 +30,17 @@ export function StoreHeader() {
     };
   }, []);
 
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [menuOpen]);
+
   return (
     <header className="gazu-header-wrap">
       {/* Top Black Announcement Bar */}
@@ -97,21 +108,98 @@ export function StoreHeader() {
             </Link>
           </div>
         </div>
+      </div>
 
-        {/* Mobile menu drawer */}
-        {menuOpen && (
-          <div className="gazu-mobile-menu">
-            <Link href="/shop" onClick={() => setMenuOpen(false)}>MEN</Link>
-            <Link href="/shop" onClick={() => setMenuOpen(false)}>WOMEN</Link>
-            <Link href="/shop" onClick={() => setMenuOpen(false)}>KIDS</Link>
-            <Link href="/shop" onClick={() => setMenuOpen(false)}> </Link>
-            <hr />
-            <Link href="/collections/oversized-t-shirts" onClick={() => setMenuOpen(false)}>Oversized T-Shirts</Link>
-            <Link href="/collections/regular-fit-t-shirts" onClick={() => setMenuOpen(false)}>Regular Fit T-Shirts</Link>
-            <Link href="/collections/printed-t-shirts" onClick={() => setMenuOpen(false)}>Printed T-Shirts</Link>
-            <Link href="/collections/new-arrivals" onClick={() => setMenuOpen(false)}>New Arrivals</Link>
+      {/* Mobile Off-Canvas Drawer Backdrop */}
+      <div
+        className={`gazu-drawer-backdrop ${menuOpen ? "open" : ""}`}
+        onClick={() => setMenuOpen(false)}
+        aria-hidden="true"
+      />
+
+      {/* Mobile Off-Canvas Drawer Sidebar Menu */}
+      <div
+        className={`gazu-drawer-menu ${menuOpen ? "open" : ""}`}
+        aria-hidden={!menuOpen}
+        role="dialog"
+        aria-modal="true"
+      >
+        {/* Drawer Top Header */}
+        <div className="gazu-drawer-header">
+          <Link href="/" className="gazu-drawer-brand" onClick={() => setMenuOpen(false)}>
+            KIARA
+          </Link>
+          <button
+            className="gazu-drawer-close"
+            type="button"
+            aria-label="Close menu"
+            onClick={() => setMenuOpen(false)}
+          >
+            <X size={22} />
+          </button>
+        </div>
+
+        {/* Drawer Scrollable Body */}
+        <div className="gazu-drawer-body">
+          {/* Primary Navigation - HOME AT TOP */}
+          <nav className="gazu-drawer-nav" aria-label="Mobile Navigation">
+            <Link href="/" className="gazu-drawer-link primary" onClick={() => setMenuOpen(false)}>
+              HOME
+            </Link>
+            <Link href="/shop" className="gazu-drawer-link primary active" onClick={() => setMenuOpen(false)}>
+              MEN
+            </Link>
+            <Link href="/shop" className="gazu-drawer-link primary" onClick={() => setMenuOpen(false)}>
+              WOMEN
+            </Link>
+            <Link href="/shop" className="gazu-drawer-link primary" onClick={() => setMenuOpen(false)}>
+              KIDS
+            </Link>
+          </nav>
+
+          <div className="gazu-drawer-divider" />
+
+          {/* Collections Section */}
+          <div className="gazu-drawer-section">
+            <span className="gazu-drawer-section-title">COLLECTIONS</span>
+            <Link href="/collections/oversized-t-shirts" className="gazu-drawer-sublink" onClick={() => setMenuOpen(false)}>
+              Oversized T-Shirts
+            </Link>
+            <Link href="/collections/regular-fit-t-shirts" className="gazu-drawer-sublink" onClick={() => setMenuOpen(false)}>
+              Regular Fit T-Shirts
+            </Link>
+            <Link href="/collections/printed-t-shirts" className="gazu-drawer-sublink" onClick={() => setMenuOpen(false)}>
+              Printed T-Shirts
+            </Link>
+            <Link href="/collections/new-arrivals" className="gazu-drawer-sublink highlight" onClick={() => setMenuOpen(false)}>
+              New Arrivals 🔥
+            </Link>
           </div>
-        )}
+
+          <div className="gazu-drawer-divider" />
+
+          {/* User Account & Quick Links */}
+          <div className="gazu-drawer-section">
+            <span className="gazu-drawer-section-title">ACCOUNT & MORE</span>
+            <Link href="/account" className="gazu-drawer-sublink" onClick={() => setMenuOpen(false)}>
+              My Account / Login
+            </Link>
+            <Link href="/wishlist" className="gazu-drawer-sublink" onClick={() => setMenuOpen(false)}>
+              Wishlist {wishCount > 0 ? `(${wishCount})` : ""}
+            </Link>
+            <Link href="/track" className="gazu-drawer-sublink" onClick={() => setMenuOpen(false)}>
+              Track Order
+            </Link>
+            <Link href="/help" className="gazu-drawer-sublink" onClick={() => setMenuOpen(false)}>
+              Help & Support
+            </Link>
+          </div>
+        </div>
+
+        {/* Drawer Footer */}
+        <div className="gazu-drawer-footer">
+          <p className="gazu-drawer-footer-text">KIARA STYLE • EVERYDAY EDIT</p>
+        </div>
       </div>
     </header>
   );

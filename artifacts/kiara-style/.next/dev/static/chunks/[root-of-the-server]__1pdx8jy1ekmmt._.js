@@ -2,7 +2,7 @@
 "[hmr-entry]/hmr-entry.js { ENTRY => \"[project]/artifacts/kiara-style/pages/_app\" }", (function(__turbopack_context__){
 "use strict";
 
-__turbopack_context__.r("[next]/entry/page-loader.ts { PAGE => \"[project]/node_modules/.pnpm/next@16.4.1_@types+node@25._d5b8dcd871d405633488baa5fc3023b7/node_modules/next/app.js [client] (ecmascript)\" } [client] (ecmascript)");
+__turbopack_context__.r("[next]/entry/page-loader.ts { PAGE => \"[project]/node_modules/.pnpm/next@16.4.1_@babel+core@7.2_e20dd83558281a44de59b10a44a9de12/node_modules/next/app.js [client] (ecmascript)\" } [client] (ecmascript)");
 }),
 "[turbopack]/browser/dev/hmr-client/hmr-client.ts [client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
