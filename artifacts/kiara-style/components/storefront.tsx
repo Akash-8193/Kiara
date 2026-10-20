@@ -68,9 +68,81 @@ function ProductGrid({ items, wished, onWish, onAdd }: { items: Product[]; wishe
 
 function HomeView({ wished, onWish, onAdd }: { wished: string[]; onWish: (id: string) => void; onAdd: AddPreview }) {
   return <>
-    <section className="hero">
-      <img className="hero-image" src="/images/editorial-hero.jpg" alt="KIARA STYLE editorial: relaxed charcoal tee in a sunlit city corridor" />
-      <div className="hero-copy reveal"><span className="eyebrow">KIARA STYLE · MEN'S FASHION</span><h1 className="display">Style that<br />speaks for you.</h1><p>Everyday essentials. Clean fits. Effortless confidence.</p><div className="hero-actions"><Link href="/shop" className="button button-outline">Shop all T-shirts <ArrowRight size={15} /></Link><Link href="/collections/oversized-t-shirts" className="hero-secondary">Explore oversized</Link></div></div>
+    {/* EXACT KIARA EDITORIAL HERO SECTION */}
+    <section className="gazu-hero-stage">
+      {/* DESKTOP HERO (Untouched - vector typography & model layering) */}
+      <div className="gazu-hero-viewport gazu-desktop-only">
+
+        {/* 1. Colossal Vector Brand Typography (Behind Model) */}
+        <div className="gazu-letters-layer" aria-hidden="true">
+          <span>K</span>
+          <span>I</span>
+          <span>A</span>
+          <span>R</span>
+          <span>A</span>
+        </div>
+
+        {/* 2. Isolated High-Fashion Cutout Model (In Front of Letters) */}
+        <div className="gazu-model-layer">
+          <img
+            src="/images/kiara-model-cutout.png"
+            alt="KIARA Fashion Model"
+            className="gazu-model-img"
+          />
+          <div className="gazu-ground-shadow" />
+        </div>
+
+        {/* 3. Top-Left Tagline */}
+        <div className="gazu-tagline-pos">
+          <div className="gazu-tagline-text">
+            <span>FASHION</span>
+            <span>THAT MOVES</span>
+            <span className="tagline-underline">WITH YOU.</span>
+          </div>
+        </div>
+
+        {/* 4. Bottom-Left Actions */}
+        <div className="gazu-actions-pos">
+          <Link href="/shop" className="gazu-solid-btn">
+            SHOP NOW
+          </Link>
+          <Link href="/collections/new-arrivals" className="gazu-link-btn">
+            EXPLORE NEW IN
+          </Link>
+        </div>
+
+        {/* 5. Bottom-Right Collection Badge */}
+        <div className="gazu-collection-pos">
+          <div className="gazu-badge-text">
+            <span>NEW</span>
+            <span>COLLECTION</span>
+            <span className="badge-underline">2024</span>
+          </div>
+        </div>
+
+      </div>
+
+      {/* MOBILE HERO (Starting composition, clean, proportionate, no blank space!) */}
+      <div className="gazu-mobile-hero gazu-mobile-only">
+        <div className="gazu-mobile-card">
+          <img
+            src="/images/kiara-hero-exact.jpg"
+            alt="KIARA — Fashion that moves with you · New Collection 2024"
+            className="gazu-mobile-img"
+          />
+          {/* Interactive touch hotspots over buttons */}
+          <Link
+            href="/shop"
+            className="gazu-mobile-hotspot-shop"
+            aria-label="Shop Now"
+          />
+          <Link
+            href="/collections/new-arrivals"
+            className="gazu-mobile-hotspot-explore"
+            aria-label="Explore New In"
+          />
+        </div>
+      </div>
     </section>
     <section className="page-wrap section">
       <div className="section-heading"><div><span className="eyebrow">A first look</span><h2 className="display">The everyday edit</h2></div><p>Sample styles, made to help shape the collection. Prices and product details are pending approval.</p></div>

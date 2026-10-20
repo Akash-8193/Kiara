@@ -1,19 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
-import { Menu, Search, ShoppingBag, UserRound, Heart, X } from "lucide-react";
-
-const navItems = [
-  ["Home", "/"], ["Shop all", "/shop"], ["Oversized", "/collections/oversized-t-shirts"], ["Regular fit", "/collections/regular-fit-t-shirts"],
-  ["Printed", "/collections/printed-t-shirts"], ["Solid", "/collections/solid-t-shirts"], ["New arrivals", "/collections/new-arrivals"], ["Best sellers", "/collections/best-sellers"],
-];
+import { Search, ShoppingBag, UserRound, Heart, Menu, X } from "lucide-react";
 
 export function StoreHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [bagCount, setBagCount] = useState(0);
   const [wishCount, setWishCount] = useState(0);
+
   useEffect(() => {
     const syncCounts = () => {
       try {
@@ -34,20 +29,90 @@ export function StoreHeader() {
       window.removeEventListener("storage", syncCounts);
     };
   }, []);
-  return <header className="site-header">
-    <div className="announcement">A considered everyday wardrobe · Sample storefront — ordering not connected</div>
-    <div className="page-wrap header-main">
-      <button className="mobile-toggle" type="button" aria-label={menuOpen ? "Close menu" : "Open menu"} onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X size={19} /> : <Menu size={19} />}</button>
-      <Link href="/" aria-label="KIARA STYLE home" className="brand-logo"><Image src="/brand/kiara-style-logo.png" width={1024} height={448} alt="KIARA STYLE — Men's Fashion" priority style={{ width: "100%", height: "auto" }} /></Link>
-      <div className="header-tools">
-        <Link className="header-action" href="/search" aria-label="Search"><Search size={18} /><span className="word-label">Search</span></Link>
-        <Link className="header-action" href="/wishlist" aria-label={`Wishlist${wishCount ? `, ${wishCount} saved` : ""}`}><Heart size={18} /><span className="word-label">Saved</span>{wishCount > 0 && <span className="header-count">{wishCount}</span>}</Link>
-        <Link className="header-action" href="/account" aria-label="Account"><UserRound size={18} /><span className="word-label">Account</span></Link>
-        <Link className="header-action" href="/cart" aria-label={`Bag${bagCount ? `, ${bagCount} items` : ""}`}><ShoppingBag size={18} /><span className="word-label">Bag</span>{bagCount > 0 && <span className="header-count">{bagCount}</span>}</Link>
+
+  return (
+    <header className="gazu-header-wrap">
+      {/* Top Black Announcement Bar */}
+      <div className="gazu-announcement-bar">
+        <div className="gazu-announcement-inner">
+          <div className="announcement-left">
+            <span>FREE DELIVERY ON ORDERS ABOVE ₹999</span>
+          </div>
+          <div className="announcement-right">
+            <Link href="/app" className="announcement-link">DOWNLOAD APP</Link>
+            <span className="announcement-sep">|</span>
+            <Link href="/track" className="announcement-link">TRACK ORDER</Link>
+            <span className="announcement-sep">|</span>
+            <Link href="/help" className="announcement-link">HELP</Link>
+          </div>
+        </div>
       </div>
-    </div>
-    <nav className={`main-nav page-wrap ${menuOpen ? "mobile-open" : ""}`} aria-label="Main navigation">
-      {navItems.map(([label, href]) => <Link key={href} href={href} onClick={() => setMenuOpen(false)}>{label}</Link>)}
-    </nav>
-  </header>;
+
+      {/* Main Navigation Bar */}
+      <div className="gazu-main-nav">
+        <div className="gazu-nav-inner">
+          {/* Mobile hamburger button */}
+          <button
+            className="gazu-mobile-toggle"
+            type="button"
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            {menuOpen ? <X size={20} /> : <Menu size={20} />}
+          </button>
+
+          {/* Left Category Links */}
+          <nav className="gazu-left-nav" aria-label="Department navigation">
+            <Link href="/shop" className="gazu-nav-item active">MEN</Link>
+            <Link href="/shop" className="gazu-nav-item">WOMEN</Link>
+            <Link href="/shop" className="gazu-nav-item">KIDS</Link>
+            <Link href="/shop" className="gazu-nav-item">BEAUTY</Link>
+          </nav>
+
+          {/* Center Brand Name KIARA */}
+          <div className="gazu-center-brand">
+            <Link href="/" className="gazu-brand-text" aria-label="KIARA Home">
+              KIARA
+            </Link>
+          </div>
+
+          {/* Right Action Icons & Labels */}
+          <div className="gazu-right-actions">
+            <Link className="gazu-action-btn" href="/search" aria-label="Search">
+              <Search size={16} strokeWidth={1.8} />
+              <span className="action-label">SEARCH</span>
+            </Link>
+            <Link className="gazu-action-btn" href="/account" aria-label="Login">
+              <UserRound size={16} strokeWidth={1.8} />
+              <span className="action-label">LOGIN</span>
+            </Link>
+            <Link className="gazu-action-btn" href="/wishlist" aria-label="Wishlist">
+              <Heart size={16} strokeWidth={1.8} />
+              <span className="action-label">WISHLIST</span>
+              {wishCount > 0 && <span className="action-count-pill">{wishCount}</span>}
+            </Link>
+            <Link className="gazu-action-btn" href="/cart" aria-label="Cart">
+              <ShoppingBag size={16} strokeWidth={1.8} />
+              <span className="action-label">CART ({bagCount})</span>
+            </Link>
+          </div>
+        </div>
+
+        {/* Mobile menu drawer */}
+        {menuOpen && (
+          <div className="gazu-mobile-menu">
+            <Link href="/shop" onClick={() => setMenuOpen(false)}>MEN</Link>
+            <Link href="/shop" onClick={() => setMenuOpen(false)}>WOMEN</Link>
+            <Link href="/shop" onClick={() => setMenuOpen(false)}>KIDS</Link>
+            <Link href="/shop" onClick={() => setMenuOpen(false)}>BEAUTY</Link>
+            <hr />
+            <Link href="/collections/oversized-t-shirts" onClick={() => setMenuOpen(false)}>Oversized T-Shirts</Link>
+            <Link href="/collections/regular-fit-t-shirts" onClick={() => setMenuOpen(false)}>Regular Fit T-Shirts</Link>
+            <Link href="/collections/printed-t-shirts" onClick={() => setMenuOpen(false)}>Printed T-Shirts</Link>
+            <Link href="/collections/new-arrivals" onClick={() => setMenuOpen(false)}>New Arrivals</Link>
+          </div>
+        )}
+      </div>
+    </header>
+  );
 }
