@@ -66,7 +66,7 @@ export function StoreHeader() {
             <Link href="/shop" className="gazu-nav-item active">MEN</Link>
             <Link href="/shop" className="gazu-nav-item">WOMEN</Link>
             <Link href="/shop" className="gazu-nav-item">KIDS</Link>
-            <Link href="/shop" className="gazu-nav-item">BEAUTY</Link>
+            <Link href="/shop" className="gazu-nav-item"> </Link>
           </nav>
 
           {/* Center Brand Name KIARA */}
@@ -104,7 +104,7 @@ export function StoreHeader() {
             <Link href="/shop" onClick={() => setMenuOpen(false)}>MEN</Link>
             <Link href="/shop" onClick={() => setMenuOpen(false)}>WOMEN</Link>
             <Link href="/shop" onClick={() => setMenuOpen(false)}>KIDS</Link>
-            <Link href="/shop" onClick={() => setMenuOpen(false)}>BEAUTY</Link>
+            <Link href="/shop" onClick={() => setMenuOpen(false)}> </Link>
             <hr />
             <Link href="/collections/oversized-t-shirts" onClick={() => setMenuOpen(false)}>Oversized T-Shirts</Link>
             <Link href="/collections/regular-fit-t-shirts" onClick={() => setMenuOpen(false)}>Regular Fit T-Shirts</Link>

@@ -2983,4 +2983,342 @@ button {
   }
 }
 
+.kiara-vibes-section {
+  background-color: #d6d6d6;
+  background-image: url("/images/vibes-bw-banner.jpg");
+  background-position: right 15%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 1px solid #0000000d;
+  align-items: center;
+  width: 100%;
+  min-height: 540px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.kiara-vibes-container {
+  align-items: center;
+  width: min(100% - 64px, 1440px);
+  min-height: 540px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.kiara-vibes-content {
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 520px;
+  padding: 64px 0 64px 24px;
+  display: flex;
+}
+
+.vibes-eyebrow {
+  font-family: var(--font-display, "Manrope", sans-serif);
+  letter-spacing: .24em;
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.vibes-title {
+  font-family: var(--font-display, "Manrope", sans-serif);
+  letter-spacing: -.04em;
+  color: #111;
+  text-transform: uppercase;
+  margin: 0 0 24px;
+  font-size: clamp(54px, 7vw, 92px);
+  font-weight: 900;
+  line-height: .92;
+}
+
+.vibes-description {
+  color: #444;
+  max-width: 380px;
+  margin: 0 0 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.vibes-cta-wrap {
+  align-items: center;
+  display: flex;
+}
+
+.vibes-cta-btn {
+  color: #fff;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #111;
+  border: 1px solid #111;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 36px;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all .25s;
+  display: inline-flex;
+}
+
+.vibes-cta-btn:hover {
+  background: #2b2b2b;
+  border-color: #2b2b2b;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px #00000029;
+}
+
+.kiara-vibes-media {
+  display: none;
+}
+
+.vibes-model-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.kiara-trust-strip {
+  background: #eae8e4;
+  border-top: 1px solid #00000014;
+  border-bottom: 1px solid #00000014;
+  width: 100%;
+  padding: 32px 0;
+}
+
+.kiara-trust-container {
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 28px;
+  width: min(100% - 64px, 1440px);
+  margin: 0 auto;
+  display: grid;
+}
+
+.trust-item {
+  align-items: center;
+  gap: 15px;
+  display: flex;
+}
+
+.trust-icon-wrap {
+  color: #111;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.trust-info {
+  flex-direction: column;
+  gap: 3px;
+  display: flex;
+}
+
+.trust-heading {
+  font-family: var(--font-display, "Manrope", sans-serif);
+  letter-spacing: .12em;
+  color: #111;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.trust-sub {
+  color: #555;
+  margin: 0;
+  font-size: 11.5px;
+  line-height: 1.3;
+}
+
+@media (max-width: 960px) {
+  .kiara-vibes-section {
+    min-height: unset;
+    background-color: #d2d0cb;
+    background-image: none;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+  }
+
+  .kiara-vibes-container {
+    grid-template-columns: 1.05fr .95fr;
+    align-items: end;
+    width: 100%;
+    min-height: 300px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+  }
+
+  .kiara-vibes-content {
+    text-align: left;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+    padding: 24px 6px 22px 18px;
+    display: flex;
+  }
+
+  .vibes-eyebrow {
+    letter-spacing: .2em;
+    color: #444;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  .vibes-title {
+    letter-spacing: -.04em;
+    color: #111;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    font-size: clamp(30px, 8vw, 42px);
+    font-weight: 900;
+    line-height: .92;
+  }
+
+  .vibes-description {
+    color: #444;
+    max-width: 100%;
+    margin-bottom: 16px;
+    font-size: 11.5px;
+    line-height: 1.35;
+  }
+
+  .vibes-desc-br {
+    display: block;
+  }
+
+  .vibes-cta-btn {
+    letter-spacing: .12em;
+    white-space: nowrap;
+    width: auto;
+    padding: 9px 18px;
+    font-size: 10px;
+    font-weight: 700;
+    display: inline-flex;
+  }
+
+  .kiara-vibes-media {
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    border-radius: 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .vibes-model-img {
+    object-fit: cover;
+    object-position: 25% top;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 310px;
+    display: block;
+  }
+
+  .kiara-trust-strip {
+    background: #eae8e4;
+    padding: 22px 0;
+  }
+
+  .kiara-trust-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px 14px;
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    padding: 0 18px;
+  }
+
+  .trust-item {
+    align-items: flex-start;
+    gap: 11px;
+    display: flex;
+  }
+
+  .trust-icon-wrap {
+    color: #111;
+    margin-top: 1px;
+  }
+
+  .trust-heading {
+    letter-spacing: .08em;
+    font-size: 11px;
+    font-weight: 800;
+  }
+
+  .trust-sub {
+    color: #555;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 440px) {
+  .kiara-vibes-container {
+    grid-template-columns: 1.08fr .92fr;
+    min-height: 270px;
+  }
+
+  .kiara-vibes-content {
+    padding: 18px 4px 18px 14px;
+  }
+
+  .vibes-title {
+    margin-bottom: 8px;
+    font-size: 30px;
+  }
+
+  .vibes-description {
+    margin-bottom: 12px;
+    font-size: 10.5px;
+  }
+
+  .vibes-cta-btn {
+    padding: 8px 14px;
+    font-size: 9px;
+  }
+
+  .vibes-model-img {
+    object-position: 20% top;
+    max-height: 270px;
+  }
+
+  .kiara-trust-container {
+    gap: 14px 10px;
+    padding: 0 14px;
+  }
+
+  .trust-item {
+    gap: 8px;
+  }
+
+  .trust-heading {
+    font-size: 10px;
+  }
+
+  .trust-sub {
+    font-size: 9px;
+  }
+}
+
 /*# sourceMappingURL=artifacts_kiara-style_app_globals_0fubslvjbbm1-.css.map*/

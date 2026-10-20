@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState, type FormEvent } from "react";
 import Link from "next/link";
-import { ArrowDownRight, ArrowRight, Heart, ShoppingBag, SlidersHorizontal, CircleAlert, Search as SearchIcon, X, ZoomIn, Ruler, Truck, RotateCcw, MessageCircle, ChevronDown } from "lucide-react";
+import { ArrowDownRight, ArrowRight, Heart, ShoppingBag, SlidersHorizontal, CircleAlert, Search as SearchIcon, X, ZoomIn, Ruler, Truck, RotateCcw, MessageCircle, ChevronDown, Award, Lock } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { collectionNames, inr, products, type Product } from "../lib/products";
 
@@ -144,6 +144,82 @@ function HomeView({ wished, onWish, onAdd }: { wished: string[]; onWish: (id: st
         </div>
       </div>
     </section>
+
+    {/* Editorial Feature Banner: NEW SEASON / NEW VIBES (Matching reference) */}
+    <section className="kiara-vibes-section">
+      <div className="kiara-vibes-container">
+        {/* Left Copy Block */}
+        <div className="kiara-vibes-content">
+          <span className="vibes-eyebrow">NEW SEASON</span>
+          <h2 className="vibes-title">
+            NEW<br />VIBES
+          </h2>
+          <p className="vibes-description">
+            Discover everything<br className="vibes-desc-br" /> new and now.
+          </p>
+          <div className="vibes-cta-wrap">
+            <Link href="/collections/new-arrivals" className="vibes-cta-btn">
+              EXPLORE COLLECTION
+            </Link>
+          </div>
+        </div>
+
+        {/* Right Model Photo */}
+        <div className="kiara-vibes-media">
+          <img
+            src="/images/vibes-bw-mobile.jpg"
+            alt="KIARA Men's New Season New Vibes Collection"
+            className="vibes-model-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    {/* Trust & Guarantee Strip */}
+    <section className="kiara-trust-strip">
+      <div className="kiara-trust-container">
+        <div className="trust-item">
+          <div className="trust-icon-wrap">
+            <Truck size={26} strokeWidth={1.6} />
+          </div>
+          <div className="trust-info">
+            <h3 className="trust-heading">FAST DELIVERY</h3>
+            <p className="trust-sub">Quick & safe delivery</p>
+          </div>
+        </div>
+
+        <div className="trust-item">
+          <div className="trust-icon-wrap">
+            <RotateCcw size={24} strokeWidth={1.6} />
+          </div>
+          <div className="trust-info">
+            <h3 className="trust-heading">EASY RETURNS</h3>
+            <p className="trust-sub">Within 15 days</p>
+          </div>
+        </div>
+
+        <div className="trust-item">
+          <div className="trust-icon-wrap">
+            <Award size={26} strokeWidth={1.6} />
+          </div>
+          <div className="trust-info">
+            <h3 className="trust-heading">QUALITY ASSURED</h3>
+            <p className="trust-sub">Best fashion, best quality</p>
+          </div>
+        </div>
+
+        <div className="trust-item">
+          <div className="trust-icon-wrap">
+            <Lock size={24} strokeWidth={1.6} />
+          </div>
+          <div className="trust-info">
+            <h3 className="trust-heading">SECURE PAYMENT</h3>
+            <p className="trust-sub">100% secure checkout</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section className="page-wrap section">
       <div className="section-heading"><div><span className="eyebrow">A first look</span><h2 className="display">The everyday edit</h2></div><p>Sample styles, made to help shape the collection. Prices and product details are pending approval.</p></div>
       <ProductGrid items={products.slice(0, 4)} wished={wished} onWish={onWish} onAdd={onAdd} />

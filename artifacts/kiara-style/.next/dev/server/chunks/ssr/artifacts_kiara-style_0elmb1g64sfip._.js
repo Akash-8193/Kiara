@@ -23,6 +23,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lu
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$545$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$rotate$2d$ccw$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__RotateCcw$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.545.0_react@19.1.0/node_modules/lucide-react/dist/esm/icons/rotate-ccw.js [app-ssr] (ecmascript) <export default as RotateCcw>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$545$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.545.0_react@19.1.0/node_modules/lucide-react/dist/esm/icons/message-circle.js [app-ssr] (ecmascript) <export default as MessageCircle>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$545$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.545.0_react@19.1.0/node_modules/lucide-react/dist/esm/icons/chevron-down.js [app-ssr] (ecmascript) <export default as ChevronDown>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$545$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.545.0_react@19.1.0/node_modules/lucide-react/dist/esm/icons/award.js [app-ssr] (ecmascript) <export default as Award>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$545$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$lock$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Lock$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.545.0_react@19.1.0/node_modules/lucide-react/dist/esm/icons/lock.js [app-ssr] (ecmascript) <export default as Lock>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.4.1_@babel+core@7.2_e20dd83558281a44de59b10a44a9de12/node_modules/next/navigation.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$kiara$2d$style$2f$lib$2f$products$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/artifacts/kiara-style/lib/products.ts [app-ssr] (ecmascript)");
 "use client";
@@ -624,6 +626,317 @@ function HomeView({ wished, onWish, onAdd }) {
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "kiara-vibes-section",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "kiara-vibes-container",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "kiara-vibes-content",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    className: "vibes-eyebrow",
+                                    children: "NEW SEASON"
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                    lineNumber: 153,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "vibes-title",
+                                    children: [
+                                        "NEW",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                            lineNumber: 155,
+                                            columnNumber: 16
+                                        }, this),
+                                        "VIBES"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                    lineNumber: 154,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "vibes-description",
+                                    children: [
+                                        "Discover everything",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
+                                            className: "vibes-desc-br"
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                            lineNumber: 158,
+                                            columnNumber: 32
+                                        }, this),
+                                        " new and now."
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                    lineNumber: 157,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "vibes-cta-wrap",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/collections/new-arrivals",
+                                        className: "vibes-cta-btn",
+                                        children: "EXPLORE COLLECTION"
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                        lineNumber: 161,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                    lineNumber: 160,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                            lineNumber: 152,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "kiara-vibes-media",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                src: "/images/vibes-bw-mobile.jpg",
+                                alt: "KIARA Men's New Season New Vibes Collection",
+                                className: "vibes-model-img"
+                            }, void 0, false, {
+                                fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                lineNumber: 169,
+                                columnNumber: 11
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                            lineNumber: 168,
+                            columnNumber: 9
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                    lineNumber: 150,
+                    columnNumber: 7
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                lineNumber: 149,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "kiara-trust-strip",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "kiara-trust-container",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "trust-item",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "trust-icon-wrap",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$545$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$truck$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Truck$3e$__["Truck"], {
+                                        size: 26,
+                                        strokeWidth: 1.6
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                        lineNumber: 183,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                    lineNumber: 182,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "trust-info",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "trust-heading",
+                                            children: "FAST DELIVERY"
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                            lineNumber: 186,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "trust-sub",
+                                            children: "Quick & safe delivery"
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                            lineNumber: 187,
+                                            columnNumber: 13
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                    lineNumber: 185,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                            lineNumber: 181,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "trust-item",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "trust-icon-wrap",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$545$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$rotate$2d$ccw$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__RotateCcw$3e$__["RotateCcw"], {
+                                        size: 24,
+                                        strokeWidth: 1.6
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                        lineNumber: 193,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                    lineNumber: 192,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "trust-info",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "trust-heading",
+                                            children: "EASY RETURNS"
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                            lineNumber: 196,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "trust-sub",
+                                            children: "Within 15 days"
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                            lineNumber: 197,
+                                            columnNumber: 13
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                    lineNumber: 195,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                            lineNumber: 191,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "trust-item",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "trust-icon-wrap",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$545$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
+                                        size: 26,
+                                        strokeWidth: 1.6
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                        lineNumber: 203,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                    lineNumber: 202,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "trust-info",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "trust-heading",
+                                            children: "QUALITY ASSURED"
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                            lineNumber: 206,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "trust-sub",
+                                            children: "Best fashion, best quality"
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                            lineNumber: 207,
+                                            columnNumber: 13
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                    lineNumber: 205,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                            lineNumber: 201,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "trust-item",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "trust-icon-wrap",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$545$2e$0_react$40$19$2e$1$2e$0$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$lock$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Lock$3e$__["Lock"], {
+                                        size: 24,
+                                        strokeWidth: 1.6
+                                    }, void 0, false, {
+                                        fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                        lineNumber: 213,
+                                        columnNumber: 13
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                    lineNumber: 212,
+                                    columnNumber: 11
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "trust-info",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "trust-heading",
+                                            children: "SECURE PAYMENT"
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                            lineNumber: 216,
+                                            columnNumber: 13
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "trust-sub",
+                                            children: "100% secure checkout"
+                                        }, void 0, false, {
+                                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                            lineNumber: 217,
+                                            columnNumber: 13
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                                    lineNumber: 215,
+                                    columnNumber: 11
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                            lineNumber: 211,
+                            columnNumber: 9
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                    lineNumber: 180,
+                    columnNumber: 7
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
+                lineNumber: 179,
+                columnNumber: 5
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "page-wrap section",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -636,7 +949,7 @@ function HomeView({ wished, onWish, onAdd }) {
                                         children: "A first look"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 148,
+                                        lineNumber: 224,
                                         columnNumber: 45
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -644,26 +957,26 @@ function HomeView({ wished, onWish, onAdd }) {
                                         children: "The everyday edit"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 148,
+                                        lineNumber: 224,
                                         columnNumber: 90
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 148,
+                                lineNumber: 224,
                                 columnNumber: 40
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Sample styles, made to help shape the collection. Prices and product details are pending approval."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 148,
+                                lineNumber: 224,
                                 columnNumber: 142
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 148,
+                        lineNumber: 224,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ProductGrid, {
@@ -673,7 +986,7 @@ function HomeView({ wished, onWish, onAdd }) {
                         onAdd: onAdd
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 149,
+                        lineNumber: 225,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -690,24 +1003,24 @@ function HomeView({ wished, onWish, onAdd }) {
                                     size: 14
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 150,
+                                    lineNumber: 226,
                                     columnNumber: 135
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 150,
+                            lineNumber: 226,
                             columnNumber: 59
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 150,
+                        lineNumber: 226,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 147,
+                lineNumber: 223,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -726,7 +1039,7 @@ function HomeView({ wished, onWish, onAdd }) {
                                         children: "Find your fit"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 153,
+                                        lineNumber: 229,
                                         columnNumber: 45
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -734,13 +1047,13 @@ function HomeView({ wished, onWish, onAdd }) {
                                         children: "A shape for every pace."
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 153,
+                                        lineNumber: 229,
                                         columnNumber: 91
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 153,
+                                lineNumber: 229,
                                 columnNumber: 40
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -752,19 +1065,19 @@ function HomeView({ wished, onWish, onAdd }) {
                                         size: 13
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 153,
+                                        lineNumber: 229,
                                         columnNumber: 200
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 153,
+                                lineNumber: 229,
                                 columnNumber: 149
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 153,
+                        lineNumber: 229,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -779,7 +1092,7 @@ function HomeView({ wished, onWish, onAdd }) {
                                         alt: "Oversized T-shirt styling"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 155,
+                                        lineNumber: 231,
                                         columnNumber: 80
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -788,14 +1101,14 @@ function HomeView({ wished, onWish, onAdd }) {
                                                 children: "Relaxed and room to move"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 155,
+                                                lineNumber: 231,
                                                 columnNumber: 157
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: "Oversized"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 155,
+                                                lineNumber: 231,
                                                 columnNumber: 194
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -805,25 +1118,25 @@ function HomeView({ wished, onWish, onAdd }) {
                                                         size: 13
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                        lineNumber: 155,
+                                                        lineNumber: 231,
                                                         columnNumber: 230
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 155,
+                                                lineNumber: 231,
                                                 columnNumber: 212
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 155,
+                                        lineNumber: 231,
                                         columnNumber: 152
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 155,
+                                lineNumber: 231,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -835,7 +1148,7 @@ function HomeView({ wished, onWish, onAdd }) {
                                         alt: "Everyday regular-fit styling"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 156,
+                                        lineNumber: 232,
                                         columnNumber: 82
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -844,14 +1157,14 @@ function HomeView({ wished, onWish, onAdd }) {
                                                 children: "Easy, familiar proportions"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 156,
+                                                lineNumber: 232,
                                                 columnNumber: 166
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: "Regular fit"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 156,
+                                                lineNumber: 232,
                                                 columnNumber: 205
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -861,25 +1174,25 @@ function HomeView({ wished, onWish, onAdd }) {
                                                         size: 13
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                        lineNumber: 156,
+                                                        lineNumber: 232,
                                                         columnNumber: 243
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 156,
+                                                lineNumber: 232,
                                                 columnNumber: 225
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 156,
+                                        lineNumber: 232,
                                         columnNumber: 161
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 156,
+                                lineNumber: 232,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -891,7 +1204,7 @@ function HomeView({ wished, onWish, onAdd }) {
                                         alt: "Muted printed T-shirt styling"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 157,
+                                        lineNumber: 233,
                                         columnNumber: 78
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -900,14 +1213,14 @@ function HomeView({ wished, onWish, onAdd }) {
                                                 children: "A little more expression"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 157,
+                                                lineNumber: 233,
                                                 columnNumber: 161
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: "Print & graphic"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 157,
+                                                lineNumber: 233,
                                                 columnNumber: 198
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -917,25 +1230,25 @@ function HomeView({ wished, onWish, onAdd }) {
                                                         size: 13
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                        lineNumber: 157,
+                                                        lineNumber: 233,
                                                         columnNumber: 243
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 157,
+                                                lineNumber: 233,
                                                 columnNumber: 222
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 157,
+                                        lineNumber: 233,
                                         columnNumber: 156
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 157,
+                                lineNumber: 233,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -947,7 +1260,7 @@ function HomeView({ wished, onWish, onAdd }) {
                                         alt: "Understated solid T-shirt styling"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 158,
+                                        lineNumber: 234,
                                         columnNumber: 76
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -956,14 +1269,14 @@ function HomeView({ wished, onWish, onAdd }) {
                                                 children: "Simple, versatile layers"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 158,
+                                                lineNumber: 234,
                                                 columnNumber: 165
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                 children: "Solid"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 158,
+                                                lineNumber: 234,
                                                 columnNumber: 202
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -973,37 +1286,37 @@ function HomeView({ wished, onWish, onAdd }) {
                                                         size: 13
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                        lineNumber: 158,
+                                                        lineNumber: 234,
                                                         columnNumber: 237
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 158,
+                                                lineNumber: 234,
                                                 columnNumber: 216
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 158,
+                                        lineNumber: 234,
                                         columnNumber: 160
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 158,
+                                lineNumber: 234,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 154,
+                        lineNumber: 230,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 152,
+                lineNumber: 228,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1018,7 +1331,7 @@ function HomeView({ wished, onWish, onAdd }) {
                                     children: "The KIARA STYLE point of view"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 161,
+                                    lineNumber: 237,
                                     columnNumber: 84
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1027,7 +1340,7 @@ function HomeView({ wished, onWish, onAdd }) {
                                         "Less noise.",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                            lineNumber: 161,
+                                            lineNumber: 237,
                                             columnNumber: 181
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1035,20 +1348,20 @@ function HomeView({ wished, onWish, onAdd }) {
                                             children: "More style."
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                            lineNumber: 161,
+                                            lineNumber: 237,
                                             columnNumber: 187
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 161,
+                                    lineNumber: 237,
                                     columnNumber: 146
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "We’re building a line of men’s T-shirts for the in-between moments: the commute, the long lunch, the plan that wasn’t planned. Simple pieces with room for your own way of wearing them."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 161,
+                                    lineNumber: 237,
                                     columnNumber: 238
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1060,19 +1373,19 @@ function HomeView({ wished, onWish, onAdd }) {
                                             size: 13
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                            lineNumber: 161,
+                                            lineNumber: 237,
                                             columnNumber: 490
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 161,
+                                    lineNumber: 237,
                                     columnNumber: 429
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 161,
+                            lineNumber: 237,
                             columnNumber: 79
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -1081,18 +1394,18 @@ function HomeView({ wished, onWish, onAdd }) {
                             alt: "A relaxed studio portrait in a muted everyday tee"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 161,
+                            lineNumber: 237,
                             columnNumber: 527
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 161,
+                    lineNumber: 237,
                     columnNumber: 36
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 161,
+                lineNumber: 237,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1108,7 +1421,7 @@ function HomeView({ wished, onWish, onAdd }) {
                                         children: "In the first collection"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 162,
+                                        lineNumber: 238,
                                         columnNumber: 82
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1116,26 +1429,26 @@ function HomeView({ wished, onWish, onAdd }) {
                                         children: "A few more to meet."
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 162,
+                                        lineNumber: 238,
                                         columnNumber: 138
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 162,
+                                lineNumber: 238,
                                 columnNumber: 77
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Browse the full sample edit, from clean solids to graphics in progress."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 162,
+                                lineNumber: 238,
                                 columnNumber: 192
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 162,
+                        lineNumber: 238,
                         columnNumber: 44
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ProductGrid, {
@@ -1145,13 +1458,13 @@ function HomeView({ wished, onWish, onAdd }) {
                         onAdd: onAdd
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 162,
+                        lineNumber: 238,
                         columnNumber: 276
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 162,
+                lineNumber: 238,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1166,7 +1479,7 @@ function HomeView({ wished, onWish, onAdd }) {
                                     children: "Stay in the loop"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 163,
+                                    lineNumber: 239,
                                     columnNumber: 86
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1174,36 +1487,36 @@ function HomeView({ wished, onWish, onAdd }) {
                                     children: "Good things, occasionally."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 163,
+                                    lineNumber: 239,
                                     columnNumber: 135
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "Sign-up is a visual preview only. No email list is connected."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 163,
+                                    lineNumber: 239,
                                     columnNumber: 190
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 163,
+                            lineNumber: 239,
                             columnNumber: 81
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NewsletterForm, {}, void 0, false, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 163,
+                            lineNumber: 239,
                             columnNumber: 264
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 163,
+                    lineNumber: 239,
                     columnNumber: 37
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 163,
+                lineNumber: 239,
                 columnNumber: 5
             }, this)
         ]
@@ -1224,7 +1537,7 @@ function NewsletterForm() {
         children: "Thanks for your interest. Newsletter sign-up is not connected yet."
     }, void 0, false, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 170,
+        lineNumber: 246,
         columnNumber: 17
     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
         className: "newsletter-form",
@@ -1236,7 +1549,7 @@ function NewsletterForm() {
                 children: "Email address"
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 170,
+                lineNumber: 246,
                 columnNumber: 176
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1246,7 +1559,7 @@ function NewsletterForm() {
                 placeholder: "Your email address"
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 170,
+                lineNumber: 246,
                 columnNumber: 251
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1257,19 +1570,19 @@ function NewsletterForm() {
                         size: 13
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 170,
+                        lineNumber: 246,
                         columnNumber: 371
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 170,
+                lineNumber: 246,
                 columnNumber: 337
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 170,
+        lineNumber: 246,
         columnNumber: 124
     }, this);
 }
@@ -1310,7 +1623,7 @@ function CollectionView({ path, wished, onWish, onAdd }) {
                 description: slug === "best-sellers" ? "A sample edit for browsing only. There is no sales history or verified popularity data behind this selection." : "An evolving line-up of everyday T-shirts. Every listing and INR price is a sample pending final product and business approval."
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 195,
+                lineNumber: 271,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1323,7 +1636,7 @@ function CollectionView({ path, wished, onWish, onAdd }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 196,
+                        lineNumber: 272,
                         columnNumber: 41
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1338,7 +1651,7 @@ function CollectionView({ path, wished, onWish, onAdd }) {
                                         size: 13
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 196,
+                                        lineNumber: 272,
                                         columnNumber: 206
                                     }, this),
                                     " ",
@@ -1346,7 +1659,7 @@ function CollectionView({ path, wished, onWish, onAdd }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 196,
+                                lineNumber: 272,
                                 columnNumber: 117
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -1355,7 +1668,7 @@ function CollectionView({ path, wished, onWish, onAdd }) {
                                 children: "Sort"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 196,
+                                lineNumber: 272,
                                 columnNumber: 288
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1368,46 +1681,46 @@ function CollectionView({ path, wished, onWish, onAdd }) {
                                         children: "Featured"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 196,
+                                        lineNumber: 272,
                                         columnNumber: 452
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                         children: "Price: low to high"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 196,
+                                        lineNumber: 272,
                                         columnNumber: 477
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                         children: "Price: high to low"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 196,
+                                        lineNumber: 272,
                                         columnNumber: 512
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                         children: "Name"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 196,
+                                        lineNumber: 272,
                                         columnNumber: 547
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 196,
+                                lineNumber: 272,
                                 columnNumber: 348
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 196,
+                        lineNumber: 272,
                         columnNumber: 83
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 196,
+                lineNumber: 272,
                 columnNumber: 5
             }, this),
             filterOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1423,27 +1736,27 @@ function CollectionView({ path, wished, onWish, onAdd }) {
                                 children: "All fits"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 197,
+                                lineNumber: 273,
                                 columnNumber: 161
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                 children: "Oversized"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 197,
+                                lineNumber: 273,
                                 columnNumber: 186
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                 children: "Regular fit"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 197,
+                                lineNumber: 273,
                                 columnNumber: 212
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 197,
+                        lineNumber: 273,
                         columnNumber: 48
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1456,34 +1769,34 @@ function CollectionView({ path, wished, onWish, onAdd }) {
                                 children: "All styles"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 197,
+                                lineNumber: 273,
                                 columnNumber: 374
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                 children: "Solid"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 197,
+                                lineNumber: 273,
                                 columnNumber: 401
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                 children: "Printed"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 197,
+                                lineNumber: 273,
                                 columnNumber: 423
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                 children: "Graphic"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 197,
+                                lineNumber: 273,
                                 columnNumber: 447
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 197,
+                        lineNumber: 273,
                         columnNumber: 249
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1496,13 +1809,13 @@ function CollectionView({ path, wished, onWish, onAdd }) {
                         children: "Clear filters"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 197,
+                        lineNumber: 273,
                         columnNumber: 480
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 197,
+                lineNumber: 273,
                 columnNumber: 20
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ProductGrid, {
@@ -1512,7 +1825,7 @@ function CollectionView({ path, wished, onWish, onAdd }) {
                 onAdd: onAdd
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 198,
+                lineNumber: 274,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1522,7 +1835,7 @@ function CollectionView({ path, wished, onWish, onAdd }) {
                         children: "Sample catalogue:"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 199,
+                        lineNumber: 275,
                         columnNumber: 29
                     }, this),
                     " product names, prices, fit descriptions and imagery are illustrative. Confirmed product data is pending; no inventory or order availability is connected.",
@@ -1530,13 +1843,13 @@ function CollectionView({ path, wished, onWish, onAdd }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 199,
+                lineNumber: 275,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 194,
+        lineNumber: 270,
         columnNumber: 10
     }, this);
 }
@@ -1565,7 +1878,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
     ]);
     if (!product) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NotFoundView, {}, void 0, false, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 224,
+        lineNumber: 300,
         columnNumber: 24
     }, this);
     const selectedColor = color || product.colors[0];
@@ -1598,7 +1911,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                         children: "Home"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 238,
+                        lineNumber: 314,
                         columnNumber: 57
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1606,7 +1919,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                         children: " / "
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 238,
+                        lineNumber: 314,
                         columnNumber: 83
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1614,7 +1927,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                         children: product.fit
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 238,
+                        lineNumber: 314,
                         columnNumber: 118
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1622,7 +1935,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                         children: " / "
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 238,
+                        lineNumber: 314,
                         columnNumber: 245
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1630,13 +1943,13 @@ function ProductView({ path, wished, onWish, onAdd }) {
                         children: product.name
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 238,
+                        lineNumber: 314,
                         columnNumber: 280
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 238,
+                lineNumber: 314,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1657,7 +1970,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                         alt: `${product.name} — sample product image`
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 242,
+                                        lineNumber: 318,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1667,20 +1980,20 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                                 size: 16
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 243,
+                                                lineNumber: 319,
                                                 columnNumber: 42
                                             }, this),
                                             " View image"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 243,
+                                        lineNumber: 319,
                                         columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 241,
+                                lineNumber: 317,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1697,17 +2010,17 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                             alt: ""
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                            lineNumber: 246,
+                                            lineNumber: 322,
                                             columnNumber: 219
                                         }, this)
                                     }, image, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 246,
+                                        lineNumber: 322,
                                         columnNumber: 48
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 245,
+                                lineNumber: 321,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1715,13 +2028,13 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: "More product photography is pending. This preview uses the single image attached to this product record."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 248,
+                                lineNumber: 324,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 240,
+                        lineNumber: 316,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1738,7 +2051,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 251,
+                                lineNumber: 327,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1746,7 +2059,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: product.name
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 252,
+                                lineNumber: 328,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1754,7 +2067,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$kiara$2d$style$2f$lib$2f$products$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["inr"])(product.price)
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 253,
+                                lineNumber: 329,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1762,7 +2075,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: "Sample INR price · pending approval"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 254,
+                                lineNumber: 330,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1770,7 +2083,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: product.description
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 255,
+                                lineNumber: 331,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1781,7 +2094,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                         children: "KS"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 256,
+                                        lineNumber: 332,
                                         columnNumber: 39
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1790,25 +2103,25 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                                 children: "Design preview only"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 256,
+                                                lineNumber: 332,
                                                 columnNumber: 82
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 256,
+                                                lineNumber: 332,
                                                 columnNumber: 118
                                             }, this),
                                             "This item cannot be purchased. Prices and product details are sample values; live inventory and ordering are not connected."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 256,
+                                        lineNumber: 332,
                                         columnNumber: 79
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 256,
+                                lineNumber: 332,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1821,26 +2134,26 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                                 children: "Preview options"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 258,
+                                                lineNumber: 334,
                                                 columnNumber: 52
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 258,
+                                        lineNumber: 334,
                                         columnNumber: 39
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: selectedColor
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 258,
+                                        lineNumber: 334,
                                         columnNumber: 89
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 258,
+                                lineNumber: 334,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1862,19 +2175,19 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                                 "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 260,
+                                                lineNumber: 336,
                                                 columnNumber: 271
                                             }, this),
                                             c
                                         ]
                                     }, c, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 260,
+                                        lineNumber: 336,
                                         columnNumber: 45
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 259,
+                                lineNumber: 335,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1887,13 +2200,13 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                                 children: "Preview options"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 262,
+                                                lineNumber: 338,
                                                 columnNumber: 77
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 262,
+                                        lineNumber: 338,
                                         columnNumber: 57
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1905,20 +2218,20 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                                 size: 14
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 262,
+                                                lineNumber: 338,
                                                 columnNumber: 201
                                             }, this),
                                             " Size chart"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 262,
+                                        lineNumber: 338,
                                         columnNumber: 114
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 262,
+                                lineNumber: 338,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1939,12 +2252,12 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                         children: s
                                     }, s, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 264,
+                                        lineNumber: 340,
                                         columnNumber: 27
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 263,
+                                lineNumber: 339,
                                 columnNumber: 9
                             }, this),
                             sizeError && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1953,7 +2266,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: "Choose a size preview option before continuing."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 266,
+                                lineNumber: 342,
                                 columnNumber: 23
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1961,7 +2274,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: "Size and colour selections are visual preview options only; availability is not configured."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 267,
+                                lineNumber: 343,
                                 columnNumber: 9
                             }, this),
                             added && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1970,7 +2283,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: "Added to your local preview bag. Checkout is not connected."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 268,
+                                lineNumber: 344,
                                 columnNumber: 19
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1986,13 +2299,13 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                                 size: 15
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 270,
+                                                lineNumber: 346,
                                                 columnNumber: 85
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 270,
+                                        lineNumber: 346,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2005,19 +2318,19 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                                 size: 15
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 271,
+                                                lineNumber: 347,
                                                 columnNumber: 111
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 271,
+                                        lineNumber: 347,
                                         columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 269,
+                                lineNumber: 345,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2031,14 +2344,14 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                         fill: wished.includes(product.id) ? "currentColor" : "none"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 273,
+                                        lineNumber: 349,
                                         columnNumber: 191
                                     }, this),
                                     wished.includes(product.id) ? "Saved to wishlist" : "Save to wishlist"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 273,
+                                lineNumber: 349,
                                 columnNumber: 9
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2046,19 +2359,19 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: "Both actions are local previews. Buy now opens the existing preview checkout; no order or payment is made."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 274,
+                                lineNumber: 350,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 250,
+                        lineNumber: 326,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 239,
+                lineNumber: 315,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2073,7 +2386,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: "The finer details"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 279,
+                                lineNumber: 355,
                                 columnNumber: 52
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2081,13 +2394,13 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: "Good to know."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 279,
+                                lineNumber: 355,
                                 columnNumber: 102
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 279,
+                        lineNumber: 355,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2101,7 +2414,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                             children: product.description
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                            lineNumber: 282,
+                                            lineNumber: 358,
                                             columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2110,7 +2423,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                                     children: "Fit:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                    lineNumber: 282,
+                                                    lineNumber: 358,
                                                     columnNumber: 68
                                                 }, this),
                                                 " ",
@@ -2120,7 +2433,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                                     children: "Colour direction:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                    lineNumber: 282,
+                                                    lineNumber: 358,
                                                     columnNumber: 106
                                                 }, this),
                                                 " ",
@@ -2129,20 +2442,20 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                            lineNumber: 282,
+                                            lineNumber: 358,
                                             columnNumber: 65
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Fabric composition, garment measurements, care instructions, print details and additional specifications are pending confirmation."
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                            lineNumber: 282,
+                                            lineNumber: 358,
                                             columnNumber: 160
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 282,
+                                    lineNumber: 358,
                                     columnNumber: 35
                                 }, this)
                             ],
@@ -2152,7 +2465,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                     children: "Fabric composition, washing instructions and care guidance have not been supplied yet. Details are pending and will be added after confirmation."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 283,
+                                    lineNumber: 359,
                                     columnNumber: 29
                                 }, this)
                             ],
@@ -2162,7 +2475,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                     children: "Shipping fees, delivery estimates, serviceable locations and fulfilment arrangements are pending. This preview cannot confirm shipping availability."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 284,
+                                    lineNumber: 360,
                                     columnNumber: 36
                                 }, this)
                             ],
@@ -2172,7 +2485,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                     children: "Return, exchange, refund and cancellation terms are not yet configured. No returns or exchanges can be promised through this preview."
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 285,
+                                    lineNumber: 361,
                                     columnNumber: 35
                                 }, this)
                             ]
@@ -2187,13 +2500,13 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                                 "aria-hidden": "true"
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 286,
+                                                lineNumber: 362,
                                                 columnNumber: 130
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 286,
+                                        lineNumber: 362,
                                         columnNumber: 102
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2201,24 +2514,24 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                         children: content
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 286,
+                                        lineNumber: 362,
                                         columnNumber: 184
                                     }, this)
                                 ]
                             }, heading, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 286,
+                                lineNumber: 362,
                                 columnNumber: 39
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 280,
+                        lineNumber: 356,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 278,
+                lineNumber: 354,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2233,7 +2546,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: "Community notes"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 291,
+                                lineNumber: 367,
                                 columnNumber: 38
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2242,20 +2555,20 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: "Customer reviews"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 291,
+                                lineNumber: 367,
                                 columnNumber: 86
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "There are no reviews for this sample product yet."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 291,
+                                lineNumber: 367,
                                 columnNumber: 150
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 291,
+                        lineNumber: 367,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2267,12 +2580,12 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                     size: 20
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 292,
+                                    lineNumber: 368,
                                     columnNumber: 72
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 292,
+                                lineNumber: 368,
                                 columnNumber: 37
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2281,20 +2594,20 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                         children: "Be the first to review"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 292,
+                                        lineNumber: 368,
                                         columnNumber: 110
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "Ratings, customer stories and customer media will appear here only when real review services are available."
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 292,
+                                        lineNumber: 368,
                                         columnNumber: 141
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 292,
+                                lineNumber: 368,
                                 columnNumber: 105
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2308,26 +2621,26 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                         children: "Write a review"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 292,
+                                        lineNumber: 368,
                                         columnNumber: 297
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "Review submission is disabled because sign-in and review persistence are not configured."
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 292,
+                                        lineNumber: 368,
                                         columnNumber: 406
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 292,
+                                lineNumber: 368,
                                 columnNumber: 261
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 292,
+                        lineNumber: 368,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2335,13 +2648,13 @@ function ProductView({ path, wished, onWish, onAdd }) {
                         children: "0 reviews · No rating data available"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 293,
+                        lineNumber: 369,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 290,
+                lineNumber: 366,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2357,7 +2670,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                         children: "Continue browsing"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 296,
+                                        lineNumber: 372,
                                         columnNumber: 88
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2365,13 +2678,13 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                         children: "More from the edit"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 296,
+                                        lineNumber: 372,
                                         columnNumber: 138
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 296,
+                                lineNumber: 372,
                                 columnNumber: 83
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2383,19 +2696,19 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                         size: 13
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 296,
+                                        lineNumber: 372,
                                         columnNumber: 242
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 296,
+                                lineNumber: 372,
                                 columnNumber: 191
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 296,
+                        lineNumber: 372,
                         columnNumber: 50
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ProductGrid, {
@@ -2405,13 +2718,13 @@ function ProductView({ path, wished, onWish, onAdd }) {
                         onAdd: onAdd
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 296,
+                        lineNumber: 372,
                         columnNumber: 279
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 296,
+                lineNumber: 372,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2426,12 +2739,12 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                     size: 18
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 299,
+                                    lineNumber: 375,
                                     columnNumber: 47
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 299,
+                                lineNumber: 375,
                                 columnNumber: 16
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2440,26 +2753,26 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                         children: "Shipping details"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 299,
+                                        lineNumber: 375,
                                         columnNumber: 78
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "Rates and delivery information are pending confirmation."
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 299,
+                                        lineNumber: 375,
                                         columnNumber: 103
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 299,
+                                lineNumber: 375,
                                 columnNumber: 73
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 299,
+                        lineNumber: 375,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -2470,12 +2783,12 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                     size: 18
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 300,
+                                    lineNumber: 376,
                                     columnNumber: 47
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 300,
+                                lineNumber: 376,
                                 columnNumber: 16
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2484,26 +2797,26 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                         children: "Returns & exchanges"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 300,
+                                        lineNumber: 376,
                                         columnNumber: 82
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "Policy terms are not yet configured or promised."
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 300,
+                                        lineNumber: 376,
                                         columnNumber: 110
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 300,
+                                lineNumber: 376,
                                 columnNumber: 77
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 300,
+                        lineNumber: 376,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -2514,12 +2827,12 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                     size: 18
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 301,
+                                    lineNumber: 377,
                                     columnNumber: 47
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 301,
+                                lineNumber: 377,
                                 columnNumber: 16
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2528,32 +2841,32 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                         children: "Customer support"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 301,
+                                        lineNumber: 377,
                                         columnNumber: 86
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "Support channels are still being set up."
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 301,
+                                        lineNumber: 377,
                                         columnNumber: 111
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 301,
+                                lineNumber: 377,
                                 columnNumber: 81
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 301,
+                        lineNumber: 377,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 298,
+                lineNumber: 374,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2567,13 +2880,13 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 children: "Sample price"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 303,
+                                lineNumber: 379,
                                 columnNumber: 68
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 303,
+                        lineNumber: 379,
                         columnNumber: 41
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2586,19 +2899,19 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 size: 15
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 303,
+                                lineNumber: 379,
                                 columnNumber: 176
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 303,
+                        lineNumber: 379,
                         columnNumber: 102
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 303,
+                lineNumber: 379,
                 columnNumber: 5
             }, this),
             dialog && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2622,12 +2935,12 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                 size: 19
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 306,
+                                lineNumber: 382,
                                 columnNumber: 113
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 306,
+                            lineNumber: 382,
                             columnNumber: 9
                         }, this),
                         dialog === "size" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -2637,7 +2950,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                     children: "Fit reference"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 307,
+                                    lineNumber: 383,
                                     columnNumber: 32
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2646,7 +2959,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                     children: "Size chart"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 307,
+                                    lineNumber: 383,
                                     columnNumber: 78
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2656,34 +2969,34 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                             size: 22
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                            lineNumber: 307,
+                                            lineNumber: 383,
                                             columnNumber: 178
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             children: "Measurements are pending"
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                            lineNumber: 307,
+                                            lineNumber: 383,
                                             columnNumber: 197
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Official garment measurements have not been provided. We won’t guess at chest, length, shoulder or sleeve dimensions."
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                            lineNumber: 307,
+                                            lineNumber: 383,
                                             columnNumber: 230
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Size labels shown on the product page are preview options only. A verified chart will be added once the sample and grading are confirmed."
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                            lineNumber: 307,
+                                            lineNumber: 383,
                                             columnNumber: 354
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 307,
+                                    lineNumber: 383,
                                     columnNumber: 142
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2693,13 +3006,13 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                     children: "Back to product"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 307,
+                                    lineNumber: 383,
                                     columnNumber: 504
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 307,
+                            lineNumber: 383,
                             columnNumber: 30
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                             children: [
@@ -2712,7 +3025,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 307,
+                                    lineNumber: 383,
                                     columnNumber: 635
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -2721,7 +3034,7 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                     alt: `${product.name} — sample product image, enlarged`
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 307,
+                                    lineNumber: 383,
                                     columnNumber: 716
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2729,30 +3042,30 @@ function ProductView({ path, wished, onWish, onAdd }) {
                                     children: "Sample image · additional product photography pending"
                                 }, void 0, false, {
                                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                    lineNumber: 307,
+                                    lineNumber: 383,
                                     columnNumber: 830
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 307,
+                            lineNumber: 383,
                             columnNumber: 633
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 305,
+                    lineNumber: 381,
                     columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 304,
+                lineNumber: 380,
                 columnNumber: 16
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 237,
+        lineNumber: 313,
         columnNumber: 10
     }, this);
 }
@@ -2874,7 +3187,7 @@ function PolicyPage({ path }) {
                 description: data.intro
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 325,
+                lineNumber: 401,
                 columnNumber: 47
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2887,7 +3200,7 @@ function PolicyPage({ path }) {
                                 children: "A note on this preview"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 325,
+                                lineNumber: 401,
                                 columnNumber: 162
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2899,13 +3212,13 @@ function PolicyPage({ path }) {
                                 children: "Service details and commercial terms will be added only when they are verified and ready."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 325,
+                                lineNumber: 401,
                                 columnNumber: 217
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 325,
+                        lineNumber: 401,
                         columnNumber: 157
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2919,37 +3232,37 @@ function PolicyPage({ path }) {
                                         children: h
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 325,
+                                        lineNumber: 401,
                                         columnNumber: 457
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: p
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 325,
+                                        lineNumber: 401,
                                         columnNumber: 494
                                     }, this)
                                 ]
                             }, h, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 325,
+                                lineNumber: 401,
                                 columnNumber: 419
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 325,
+                        lineNumber: 401,
                         columnNumber: 384
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 325,
+                lineNumber: 401,
                 columnNumber: 125
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 325,
+        lineNumber: 401,
         columnNumber: 20
     }, this);
     if (path === "/faq") return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2961,7 +3274,7 @@ function PolicyPage({ path }) {
                 description: "Useful answers for browsing the KIARA STYLE preview."
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 326,
+                lineNumber: 402,
                 columnNumber: 58
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2994,36 +3307,36 @@ function PolicyPage({ path }) {
                                 children: q
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 332,
+                                lineNumber: 408,
                                 columnNumber: 58
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: a
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 332,
+                                lineNumber: 408,
                                 columnNumber: 80
                             }, this)
                         ]
                     }, q, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 332,
+                        lineNumber: 408,
                         columnNumber: 20
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 326,
+                lineNumber: 402,
                 columnNumber: 182
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 326,
+        lineNumber: 402,
         columnNumber: 31
     }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NotFoundView, {}, void 0, false, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 333,
+        lineNumber: 409,
         columnNumber: 10
     }, this);
 }
@@ -3041,7 +3354,7 @@ function NotFoundView() {
                     children: "404 · Page not found"
                 }, void 0, false, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 337,
+                    lineNumber: 413,
                     columnNumber: 95
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -3049,14 +3362,14 @@ function NotFoundView() {
                     children: "This page has wandered off."
                 }, void 0, false, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 337,
+                    lineNumber: 413,
                     columnNumber: 148
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     children: "The link may be outdated, or this part of the storefront is still being prepared."
                 }, void 0, false, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 337,
+                    lineNumber: 413,
                     columnNumber: 204
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3068,24 +3381,24 @@ function NotFoundView() {
                             size: 14
                         }, void 0, false, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 337,
+                            lineNumber: 413,
                             columnNumber: 348
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 337,
+                    lineNumber: 413,
                     columnNumber: 292
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-            lineNumber: 337,
+            lineNumber: 413,
             columnNumber: 37
         }, this)
     }, void 0, false, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 337,
+        lineNumber: 413,
         columnNumber: 10
     }, this);
 }
@@ -3108,7 +3421,7 @@ function CartPage({ bag, setBag }) {
                 description: "You can add sample styles to a local preview bag while you browse."
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 349,
+                lineNumber: 425,
                 columnNumber: 54
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3118,21 +3431,21 @@ function CartPage({ bag, setBag }) {
                         size: 24
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 349,
+                        lineNumber: 425,
                         columnNumber: 223
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         children: "Start with an everyday favourite."
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 349,
+                        lineNumber: 425,
                         columnNumber: 248
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: "Your preview bag is empty. There is no live inventory or ordering behind these sample listings."
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 349,
+                        lineNumber: 425,
                         columnNumber: 290
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3144,25 +3457,25 @@ function CartPage({ bag, setBag }) {
                                 size: 14
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 349,
+                                lineNumber: 425,
                                 columnNumber: 446
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 349,
+                        lineNumber: 425,
                         columnNumber: 392
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 349,
+                lineNumber: 425,
                 columnNumber: 194
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 349,
+        lineNumber: 425,
         columnNumber: 27
     }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3174,7 +3487,7 @@ function CartPage({ bag, setBag }) {
                 description: "Preview items live only in this browser. No order can be placed from this storefront."
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 350,
+                lineNumber: 426,
                 columnNumber: 37
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3191,12 +3504,12 @@ function CartPage({ bag, setBag }) {
                                             alt: item.product.name
                                         }, void 0, false, {
                                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                            lineNumber: 350,
+                                            lineNumber: 426,
                                             columnNumber: 398
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 350,
+                                        lineNumber: 426,
                                         columnNumber: 353
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3205,7 +3518,7 @@ function CartPage({ bag, setBag }) {
                                                 children: item.product.name
                                             }, void 0, false, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 350,
+                                                lineNumber: 426,
                                                 columnNumber: 466
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3216,7 +3529,7 @@ function CartPage({ bag, setBag }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 350,
+                                                lineNumber: 426,
                                                 columnNumber: 494
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3226,7 +3539,7 @@ function CartPage({ bag, setBag }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 350,
+                                                lineNumber: 426,
                                                 columnNumber: 532
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3239,14 +3552,14 @@ function CartPage({ bag, setBag }) {
                                                         children: "−"
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                        lineNumber: 350,
+                                                        lineNumber: 426,
                                                         columnNumber: 611
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: item.quantity
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                        lineNumber: 350,
+                                                        lineNumber: 426,
                                                         columnNumber: 739
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3256,7 +3569,7 @@ function CartPage({ bag, setBag }) {
                                                         children: "+"
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                        lineNumber: 350,
+                                                        lineNumber: 426,
                                                         columnNumber: 767
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3270,37 +3583,37 @@ function CartPage({ bag, setBag }) {
                                                         children: "Remove"
                                                     }, void 0, false, {
                                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                        lineNumber: 350,
+                                                        lineNumber: 426,
                                                         columnNumber: 894
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                                lineNumber: 350,
+                                                lineNumber: 426,
                                                 columnNumber: 577
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 350,
+                                        lineNumber: 426,
                                         columnNumber: 461
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$kiara$2d$style$2f$lib$2f$products$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["inr"])(item.product.price * item.quantity)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 350,
+                                        lineNumber: 426,
                                         columnNumber: 1063
                                     }, this)
                                 ]
                             }, `${item.product.id}-${item.size}-${item.color}`, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 350,
+                                lineNumber: 426,
                                 columnNumber: 273
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 350,
+                        lineNumber: 426,
                         columnNumber: 242
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
@@ -3312,20 +3625,20 @@ function CartPage({ bag, setBag }) {
                                         children: "Sample subtotal"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 350,
+                                        lineNumber: 426,
                                         columnNumber: 1166
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$kiara$2d$style$2f$lib$2f$products$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["inr"])(total)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 350,
+                                        lineNumber: 426,
                                         columnNumber: 1194
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 350,
+                                lineNumber: 426,
                                 columnNumber: 1161
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3334,20 +3647,20 @@ function CartPage({ bag, setBag }) {
                                         children: "Shipping"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 350,
+                                        lineNumber: 426,
                                         columnNumber: 1230
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "Not calculated"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 350,
+                                        lineNumber: 426,
                                         columnNumber: 1251
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 350,
+                                lineNumber: 426,
                                 columnNumber: 1225
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3357,20 +3670,20 @@ function CartPage({ bag, setBag }) {
                                         children: "Estimated total"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 350,
+                                        lineNumber: 426,
                                         columnNumber: 1307
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$artifacts$2f$kiara$2d$style$2f$lib$2f$products$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["inr"])(total)
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 350,
+                                        lineNumber: 426,
                                         columnNumber: 1335
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 350,
+                                lineNumber: 426,
                                 columnNumber: 1284
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3382,7 +3695,7 @@ function CartPage({ bag, setBag }) {
                                 children: "Total uses sample catalogue prices only. Taxes, shipping, offers and inventory are not configured."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 350,
+                                lineNumber: 426,
                                 columnNumber: 1366
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3397,25 +3710,25 @@ function CartPage({ bag, setBag }) {
                                         size: 14
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 350,
+                                        lineNumber: 426,
                                         columnNumber: 1633
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 350,
+                                lineNumber: 426,
                                 columnNumber: 1536
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 350,
+                        lineNumber: 426,
                         columnNumber: 1129
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 350,
+                lineNumber: 426,
                 columnNumber: 210
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3423,13 +3736,13 @@ function CartPage({ bag, setBag }) {
                 children: "Preview only: the cart is stored locally in your browser. Shopify, accounts, hosted checkout and payments are not connected. No purchase will be made."
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 350,
+                lineNumber: 426,
                 columnNumber: 1678
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 350,
+        lineNumber: 426,
         columnNumber: 10
     }, this);
 }
@@ -3443,7 +3756,7 @@ function CheckoutPage({ payment = false }) {
                 description: "This checkout is a design preview, not an active purchase flow. Please do not enter personal or payment information."
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 354,
+                lineNumber: 430,
                 columnNumber: 37
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3453,14 +3766,14 @@ function CheckoutPage({ payment = false }) {
                         children: "No real checkout:"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 354,
+                        lineNumber: 430,
                         columnNumber: 355
                     }, this),
                     " hosted checkout, payments and order creation are disconnected. No payment information is requested or stored."
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 354,
+                lineNumber: 430,
                 columnNumber: 331
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3473,7 +3786,7 @@ function CheckoutPage({ payment = false }) {
                                 children: payment ? "Payment setup pending." : "Delivery details preview"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 355,
+                                lineNumber: 431,
                                 columnNumber: 42
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3485,7 +3798,7 @@ function CheckoutPage({ payment = false }) {
                                 children: "This screen demonstrates the intended step only. No personal details, payment information, or order data can be entered or saved."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 355,
+                                lineNumber: 431,
                                 columnNumber: 136
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3495,26 +3808,26 @@ function CheckoutPage({ payment = false }) {
                                         children: "Before this can go live"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 355,
+                                        lineNumber: 431,
                                         columnNumber: 368
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "A commerce connection is required for products, live prices, inventory, secure checkout, payment processing and order status."
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 355,
+                                        lineNumber: 431,
                                         columnNumber: 400
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 355,
+                                lineNumber: 431,
                                 columnNumber: 337
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 355,
+                        lineNumber: 431,
                         columnNumber: 37
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3524,14 +3837,14 @@ function CheckoutPage({ payment = false }) {
                                 children: payment ? "Payment methods unavailable" : "Address collection is disabled"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 355,
+                                lineNumber: 431,
                                 columnNumber: 575
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "There is no commerce connection configured. This preview cannot collect delivery information, check serviceability, accept payment, or create an order."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 355,
+                                lineNumber: 431,
                                 columnNumber: 660
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3542,7 +3855,7 @@ function CheckoutPage({ payment = false }) {
                                 children: payment ? "Payment setup required" : "Checkout setup required"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 355,
+                                lineNumber: 431,
                                 columnNumber: 818
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3550,25 +3863,25 @@ function CheckoutPage({ payment = false }) {
                                 children: "This control is disabled until a real commerce provider is connected."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 355,
+                                lineNumber: 431,
                                 columnNumber: 962
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 355,
+                        lineNumber: 431,
                         columnNumber: 544
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 355,
+                lineNumber: 431,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 354,
+        lineNumber: 430,
         columnNumber: 10
     }, this);
 }
@@ -3585,7 +3898,7 @@ function FormScreen({ path }) {
                 description: "Account access is not connected yet. This page is a preview and cannot sign you in, create an account, or send a reset email."
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 363,
+                lineNumber: 439,
                 columnNumber: 37
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3598,7 +3911,7 @@ function FormScreen({ path }) {
                                 children: "Not live yet"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 363,
+                                lineNumber: 439,
                                 columnNumber: 270
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -3606,7 +3919,7 @@ function FormScreen({ path }) {
                                 children: "Your account, when we're ready."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 363,
+                                lineNumber: 439,
                                 columnNumber: 315
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3618,13 +3931,13 @@ function FormScreen({ path }) {
                                 children: "Authentication, customer profiles, saved addresses and order history need a secure account connection before use."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 363,
+                                lineNumber: 439,
                                 columnNumber: 375
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 363,
+                        lineNumber: 439,
                         columnNumber: 265
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3634,14 +3947,14 @@ function FormScreen({ path }) {
                                 children: "Account services are unavailable"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 363,
+                                lineNumber: 439,
                                 columnNumber: 597
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "No credentials are requested or stored in this preview. Sign-in and recovery will be enabled only after a secure authentication provider is connected."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 363,
+                                lineNumber: 439,
                                 columnNumber: 638
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3652,7 +3965,7 @@ function FormScreen({ path }) {
                                         children: "Continue browsing"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 363,
+                                        lineNumber: 439,
                                         columnNumber: 826
                                     }, this),
                                     isSignup && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3660,7 +3973,7 @@ function FormScreen({ path }) {
                                         children: "Sign in"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 363,
+                                        lineNumber: 439,
                                         columnNumber: 882
                                     }, this),
                                     !isSignup && !isForgot && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3668,7 +3981,7 @@ function FormScreen({ path }) {
                                         children: "Forgot password?"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 363,
+                                        lineNumber: 439,
                                         columnNumber: 944
                                     }, this),
                                     isForgot && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3676,7 +3989,7 @@ function FormScreen({ path }) {
                                         children: "Back to sign in"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 363,
+                                        lineNumber: 439,
                                         columnNumber: 1011
                                     }, this),
                                     !isForgot && !isSignup && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3684,31 +3997,31 @@ function FormScreen({ path }) {
                                         children: "Create account"
                                     }, void 0, false, {
                                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                        lineNumber: 363,
+                                        lineNumber: 439,
                                         columnNumber: 1081
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 363,
+                                lineNumber: 439,
                                 columnNumber: 795
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 363,
+                        lineNumber: 439,
                         columnNumber: 566
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 363,
+                lineNumber: 439,
                 columnNumber: 233
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 363,
+        lineNumber: 439,
         columnNumber: 10
     }, this);
 }
@@ -3725,7 +4038,7 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                     description: "Search the sample catalogue. Product information and prices are illustrative."
                 }, void 0, false, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 370,
+                    lineNumber: 446,
                     columnNumber: 39
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3735,7 +4048,7 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                             size: 20
                         }, void 0, false, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 370,
+                            lineNumber: 446,
                             columnNumber: 230
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -3746,7 +4059,7 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                             "aria-label": "Search sample products"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 370,
+                            lineNumber: 446,
                             columnNumber: 254
                         }, this),
                         query && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3755,13 +4068,13 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                             children: "Clear"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 370,
+                            lineNumber: 446,
                             columnNumber: 427
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 370,
+                    lineNumber: 446,
                     columnNumber: 202
                 }, this),
                 query && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3778,7 +4091,7 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 370,
+                    lineNumber: 446,
                     columnNumber: 518
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ProductGrid, {
@@ -3788,13 +4101,13 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                     onAdd: onAdd
                 }, void 0, false, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 370,
+                    lineNumber: 446,
                     columnNumber: 636
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-            lineNumber: 370,
+            lineNumber: 446,
             columnNumber: 12
         }, this);
     }
@@ -3807,7 +4120,7 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                 description: "Order creation and payment are not connected to this preview storefront."
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 372,
+                lineNumber: 448,
                 columnNumber: 82
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3817,21 +4130,21 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                         size: 24
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 372,
+                        lineNumber: 448,
                         columnNumber: 262
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         children: "This is not a purchase confirmation."
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 372,
+                        lineNumber: 448,
                         columnNumber: 287
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: "No order has been placed. Orders, payment status and confirmation pages require the commerce connection."
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 372,
+                        lineNumber: 448,
                         columnNumber: 332
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3840,19 +4153,19 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                         children: "Return to browsing"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 372,
+                        lineNumber: 448,
                         columnNumber: 443
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 372,
+                lineNumber: 448,
                 columnNumber: 233
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 372,
+        lineNumber: 448,
         columnNumber: 55
     }, this);
     if (path === "/track-order") return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3864,7 +4177,7 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                 description: "There is no order status, tracking number or fulfilment service connected."
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 373,
+                lineNumber: 449,
                 columnNumber: 66
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3877,7 +4190,7 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                                 children: "When tracking is available, it will be here."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 373,
+                                lineNumber: 449,
                                 columnNumber: 263
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3889,13 +4202,13 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                                 children: "No personal information is requested. This preview cannot look up orders."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 373,
+                                lineNumber: 449,
                                 columnNumber: 336
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 373,
+                        lineNumber: 449,
                         columnNumber: 258
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3905,14 +4218,14 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                                 children: "Order lookup unavailable"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 373,
+                                lineNumber: 449,
                                 columnNumber: 518
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Order IDs and contact details are not collected. A commerce connection is required before an order can be verified or tracked."
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 373,
+                                lineNumber: 449,
                                 columnNumber: 551
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3921,25 +4234,25 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                                 children: "Browse the sample edit"
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 373,
+                                lineNumber: 449,
                                 columnNumber: 684
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 373,
+                        lineNumber: 449,
                         columnNumber: 487
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 373,
+                lineNumber: 449,
                 columnNumber: 226
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 373,
+        lineNumber: 449,
         columnNumber: 39
     }, this);
     if (path === "/account" || path.startsWith("/account/")) {
@@ -3955,7 +4268,7 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                     description: "Sign-in, profile, order history and customer data are not connected."
                 }, void 0, false, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 378,
+                    lineNumber: 454,
                     columnNumber: 39
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3966,7 +4279,7 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                             children: "Profile"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 378,
+                            lineNumber: 454,
                             columnNumber: 204
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3974,7 +4287,7 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                             children: "Orders"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 378,
+                            lineNumber: 454,
                             columnNumber: 248
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3982,13 +4295,13 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                             children: "Track order"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 378,
+                            lineNumber: 454,
                             columnNumber: 290
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 378,
+                    lineNumber: 454,
                     columnNumber: 173
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3998,14 +4311,14 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                             children: "Preview state only"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 378,
+                            lineNumber: 454,
                             columnNumber: 371
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: "There is no account session or order data to display. No customer records can be created or accessed here."
                         }, void 0, false, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 378,
+                            lineNumber: 454,
                             columnNumber: 398
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4014,46 +4327,46 @@ function MiscPage({ path, wished, onWish, onAdd }) {
                             children: "Account sign-in preview"
                         }, void 0, false, {
                             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                            lineNumber: 378,
+                            lineNumber: 454,
                             columnNumber: 511
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                    lineNumber: 378,
+                    lineNumber: 454,
                     columnNumber: 340
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-            lineNumber: 378,
+            lineNumber: 454,
             columnNumber: 12
         }, this);
     }
     if (path === "/checkout") return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CheckoutPage, {}, void 0, false, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 380,
+        lineNumber: 456,
         columnNumber: 36
     }, this);
     if (path === "/checkout/payment") return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CheckoutPage, {
         payment: true
     }, void 0, false, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 381,
+        lineNumber: 457,
         columnNumber: 44
     }, this);
     if (path === "/login" || path === "/signup" || path === "/forgot-password") return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(FormScreen, {
         path: path
     }, void 0, false, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 382,
+        lineNumber: 458,
         columnNumber: 86
     }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(PolicyPage, {
         path: path
     }, void 0, false, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 383,
+        lineNumber: 459,
         columnNumber: 10
     }, this);
 }
@@ -4101,7 +4414,7 @@ function Storefront({ path }) {
                 onAdd: add
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 401,
+                lineNumber: 477,
                 columnNumber: 30
             }, this),
             toast && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4114,19 +4427,19 @@ function Storefront({ path }) {
                         children: "View bag"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 401,
+                        lineNumber: 477,
                         columnNumber: 133
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 401,
+                lineNumber: 477,
                 columnNumber: 100
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 401,
+        lineNumber: 477,
         columnNumber: 28
     }, this);
     if (path === "/shop" || path.startsWith("/collections/")) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -4138,7 +4451,7 @@ function Storefront({ path }) {
                 onAdd: add
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 402,
+                lineNumber: 478,
                 columnNumber: 70
             }, this),
             toast && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4151,19 +4464,19 @@ function Storefront({ path }) {
                         children: "View bag"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 402,
+                        lineNumber: 478,
                         columnNumber: 191
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 402,
+                lineNumber: 478,
                 columnNumber: 158
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 402,
+        lineNumber: 478,
         columnNumber: 68
     }, this);
     if (path.startsWith("/product/")) return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
@@ -4175,7 +4488,7 @@ function Storefront({ path }) {
                 onAdd: add
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 403,
+                lineNumber: 479,
                 columnNumber: 46
             }, this),
             toast && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4188,19 +4501,19 @@ function Storefront({ path }) {
                         children: "View bag"
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 403,
+                        lineNumber: 479,
                         columnNumber: 164
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 403,
+                lineNumber: 479,
                 columnNumber: 131
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 403,
+        lineNumber: 479,
         columnNumber: 44
     }, this);
     if (path === "/cart") return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(CartPage, {
@@ -4208,7 +4521,7 @@ function Storefront({ path }) {
         setBag: setBag
     }, void 0, false, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 404,
+        lineNumber: 480,
         columnNumber: 32
     }, this);
     if (path === "/wishlist") return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(WishlistPage, {
@@ -4217,7 +4530,7 @@ function Storefront({ path }) {
         onAdd: add
     }, void 0, false, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 405,
+        lineNumber: 481,
         columnNumber: 36
     }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(MiscPage, {
@@ -4227,7 +4540,7 @@ function Storefront({ path }) {
         onAdd: add
     }, void 0, false, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 406,
+        lineNumber: 482,
         columnNumber: 10
     }, this);
 }
@@ -4242,7 +4555,7 @@ function WishlistPage({ wished, onWish, onAdd }) {
                 description: "Your wishlist is stored locally in this browser for preview. It is not connected to a customer account."
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 411,
+                lineNumber: 487,
                 columnNumber: 37
             }, this),
             items.length ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ProductGrid, {
@@ -4252,7 +4565,7 @@ function WishlistPage({ wished, onWish, onAdd }) {
                 onAdd: onAdd
             }, void 0, false, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 411,
+                lineNumber: 487,
                 columnNumber: 254
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "empty-state",
@@ -4261,21 +4574,21 @@ function WishlistPage({ wished, onWish, onAdd }) {
                         size: 24
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 411,
+                        lineNumber: 487,
                         columnNumber: 361
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                         children: "Your saved edit starts here."
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 411,
+                        lineNumber: 487,
                         columnNumber: 380
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: "Save styles while browsing and they will appear here in this browser."
                     }, void 0, false, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 411,
+                        lineNumber: 487,
                         columnNumber: 417
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$4$2e$1_$40$babel$2b$core$40$7$2e$2_e20dd83558281a44de59b10a44a9de12$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4287,25 +4600,25 @@ function WishlistPage({ wished, onWish, onAdd }) {
                                 size: 14
                             }, void 0, false, {
                                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                                lineNumber: 411,
+                                lineNumber: 487,
                                 columnNumber: 545
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                        lineNumber: 411,
+                        lineNumber: 487,
                         columnNumber: 493
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-                lineNumber: 411,
+                lineNumber: 487,
                 columnNumber: 332
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/artifacts/kiara-style/components/storefront.tsx",
-        lineNumber: 411,
+        lineNumber: 487,
         columnNumber: 10
     }, this);
 }
