@@ -1,0 +1,31 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/2d9v5-xce6h3o.js"
+3:"/_next/static/chunks/0r0u43vl2ftwj.js"
+4:I[64535,["$2","$3"],"StoreHeader"]
+5:I[82347,["$2","$3"],"default"]
+6:I[88640,["$2","$3"],"default"]
+7:I[72471,["$2","$3"],""]
+8:I[69808,["$2","$3"],"Image"]
+f:I[10574,["$2","$3"],"OutletBoundary"]
+10:"$Sreact.suspense"
+13:"ViewportBoundary"
+14:I[10574,["$2","$3"],"$13"]
+15:"MetadataBoundary"
+16:I[10574,["$2","$3"],"$15"]
+17:I[55494,["$2","$3"],"IconMark"]
+:HL["/_next/static/chunks/3ennrfgkqwzfq.css","style"]
+a:X
+d:X
+d:C
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","div",null,{"className":"page-wrap","children":["$","div",null,{"className":"empty-state","style":{"margin":"70px 0"},"children":[["$","span",null,{"className":"eyebrow","children":"404 · Page not found"}],["$","h1",null,{"className":"display","children":"This page has wandered off."}],["$","p",null,{"children":"The link may be outdated, or this part of the storefront is still being prepared."}],["$","$L7",null,{"className":"button","href":"/","children":"Back to the home edit"}]]}]}],null,["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}],"p":"$@12","v":null,"s":"$a"}}]]
+b:[["children",{"s":"/_not-found","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@c","v":"$d","s":"$a"},"c":"$Qe"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3ennrfgkqwzfq.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2d9v5-xce6h3o.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0r0u43vl2ftwj.js","async":true}]],["$","html",null,{"lang":"en-IN","children":["$","body",null,{"children":[["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[["$","div",null,{"className":"page-wrap","children":["$","div",null,{"className":"empty-state","style":{"margin":"70px 0"},"children":[["$","span",null,{"className":"eyebrow","children":"404 · Page not found"}],["$","h1",null,{"className":"display","children":"This page has wandered off."}],["$","p",null,{"children":"The link may be outdated, or this part of the storefront is still being prepared."}],["$","$L7",null,{"className":"button","href":"/","children":"Back to the home edit"}]]}]}],[]]}]}],["$","footer",null,{"className":"footer","children":[["$","div",null,{"className":"page-wrap footer-top","children":[["$","div",null,{"children":[["$","$L8",null,{"src":"/brand/kiara-style-logo.png","width":1024,"height":448,"alt":"KIARA STYLE","className":"footer-brand"}],["$","p",null,{"children":["Everyday T-shirts, with a little more thought.",["$","br",null,{}],"A sample storefront in progress."]}]]}],["$","div",null,{"children":[["$","h3",null,{"children":"Explore"}],["$","div",null,{"className":"footer-links","children":[["$","$L7",null,{"href":"/shop","children":"Shop all"}],["$","$L7",null,{"href":"/collections/best-sellers","children":"Best sellers"}],["$","$L7",null,{"href":"/collections/new-arrivals","children":"New arrivals"}],["$","$L7",null,{"href":"/size-guide","children":"Size guide"}]]}]]}],["$","div",null,{"children":[["$","h3",null,{"children":"Help & information"}],["$","div",null,{"className":"footer-links","children":[["$","$L7",null,{"href":"/faq","children":"FAQ"}],["$","$L7",null,{"href":"/contact","children":"Contact"}],["$","$L7",null,{"href":"/shipping-policy","children":"Shipping policy"}],["$","$L7",null,{"href":"/returns-exchanges","children":"Returns & exchanges"}]]}]]}],["$","div",null,{"children":[["$","h3",null,{"children":"KIARA STYLE"}],["$","div",null,{"className":"footer-links","children":[["$","$L7",null,{"href":"/about","children":"About"}],["$","$L7",null,{"href":"/privacy-policy","children":"Privacy"}],["$","$L7",null,{"href":"/terms","children":"Terms"}],["$","$L7",null,{"href":"/track-order","children":"Track an order"}]]}]]}]]}],["$","div",null,{"className":"page-wrap footer-bottom","children":[["$","span",null,{"children":["© ",2026," KIARA STYLE · Men's Fashion"]}],["$","span",null,{"children":"Prices and product details are sample values pending approval."}]]}]]}]]}]}]]}],"p":"$@9","v":null,"s":"$a"},"c":"$Qb"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$10",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"KIARA STYLE — Men's Fashion"}],["$","meta","1",{"name":"description","content":"Everyday T-shirts, with a little more thought. Browse the KIARA STYLE sample collection."}],["$","meta","2",{"name":"robots","content":"noindex, nofollow"}],["$","meta","3",{"property":"og:title","content":"KIARA STYLE — Men's Fashion"}],["$","meta","4",{"property":"og:description","content":"Everyday T-shirts, with a little more thought."}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"KIARA STYLE — Men's Fashion"}],["$","meta","8",{"name":"twitter:description","content":"Everyday T-shirts, with a little more thought."}],["$","link","9",{"rel":"icon","href":"/favicon.svg"}],["$","$L17","10",{}]]}]}],null]}],null]}],"p":"$@18","v":null,"s":"$a"}},"a":"$@19","u":"$@1a","b":"VXLM8u3X44BN6SKh7uz6d"}
+11:null
+a:300
+1a:true
+a:C
+19:0
+c:"$undefined"
+9:"$undefined"
+18:"$undefined"
+12:"$undefined"
